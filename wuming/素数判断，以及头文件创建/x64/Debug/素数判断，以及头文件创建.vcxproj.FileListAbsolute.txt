@@ -1,1 +1,0 @@
-D:\visual studio data\素数判断，以及头文件创建\x64\Debug\素数判断，以及头文件创建.exe
