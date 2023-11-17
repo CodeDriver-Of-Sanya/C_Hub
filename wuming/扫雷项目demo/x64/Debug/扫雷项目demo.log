@@ -1,0 +1,3 @@
+﻿  game.c
+D:\visual studio data\扫雷项目demo\game.h(1,1): warning C4828: 文件包含在偏移 0x2b0 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  扫雷项目demo.vcxproj -> D:\visual studio data\扫雷项目demo\x64\Debug\扫雷项目demo.exe
