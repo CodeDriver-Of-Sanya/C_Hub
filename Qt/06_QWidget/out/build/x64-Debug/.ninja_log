@@ -1,0 +1,12 @@
+# ninja log v5
+9	122	7212322339546240	test_other/test_other_autogen/timestamp	ddb453ec38638e80
+9	122	7212322339546240	test_other/test_other_autogen/mocs_compilation.cpp	ddb453ec38638e80
+9	122	7212322339546240	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Debug/test_other/test_other_autogen/timestamp	ddb453ec38638e80
+9	122	7212322339546240	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Debug/test_other/test_other_autogen/mocs_compilation.cpp	ddb453ec38638e80
+244	371	7212320177685858	test_other/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp	633272eac296f72c
+244	371	7212320177685858	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Debug/test_other/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp	633272eac296f72c
+371	410	7212320178314080	test_other/CMakeFiles/test_other.dir/test_other_autogen/mocs_compilation.cpp.obj	6b2871f7cbb0afea
+383	479	7212320178989685	test_other/CMakeFiles/test_other.dir/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	aba925cee4060c85
+265	2178	7212320448617690	test_other/CMakeFiles/test_other.dir/main.cpp.obj	e43d8a8904f49534
+813	984	7212322347849134	test_other/test_other.exe	1247c51fbcd0ce0a
+126	813	7212322346465033	test_other/CMakeFiles/test_other.dir/icon.rc.res	3ebbec5066bed69a

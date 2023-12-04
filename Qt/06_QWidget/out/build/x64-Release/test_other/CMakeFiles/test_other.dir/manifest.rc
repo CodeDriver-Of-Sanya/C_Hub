@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/test_other.dir/embed.manifest"

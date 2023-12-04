@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/08_event_2.dir/embed.manifest"

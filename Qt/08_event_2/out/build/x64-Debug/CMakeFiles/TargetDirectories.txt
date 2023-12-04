@@ -1,0 +1,5 @@
+C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/08_event_2.dir
+C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/08_event_2_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/Qt/08_event_2/out/build/x64-Debug/CMakeFiles/08_event_2_autogen.dir

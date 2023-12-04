@@ -1,0 +1,10 @@
+# ninja log v5
+2	738	7195236058252803	build.ninja	d646c2480c8893b5
+11	234	7195231711046613	C:/Users/zmq/coding/Qt/build-Qt3-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/Qt3_autogen/timestamp	fa51cf10ac88d0fb
+667	2115	7195228278251371	CMakeFiles/Qt3.dir/main.cpp.obj	54ca1f8797140b3
+11	234	7195231711046613	Qt3_autogen/timestamp	fa51cf10ac88d0fb
+11	234	7195231711046613	Qt3_autogen/mocs_compilation.cpp	fa51cf10ac88d0fb
+11	234	7195231711046613	C:/Users/zmq/coding/Qt/build-Qt3-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/Qt3_autogen/mocs_compilation.cpp	fa51cf10ac88d0fb
+660	2120	7195228278296080	CMakeFiles/Qt3.dir/widget.cpp.obj	165cc5e840d2716d
+655	2125	7195228278334629	CMakeFiles/Qt3.dir/Qt3_autogen/mocs_compilation.cpp.obj	3257cb721852accc
+2125	2314	7195228280188764	Qt3.exe	d1db1eaec686a006

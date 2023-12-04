@@ -1,0 +1,10 @@
+# ninja log v5
+30	205	7203600700077481	C:/Users/zmq/coding/Qt/04_signal_slots/out/build/x64-Debug/day04_autogen/timestamp	4ffcb2af8ea8f382
+30	205	7203600700077481	day04_autogen/timestamp	4ffcb2af8ea8f382
+348	2773	7203596194788864	CMakeFiles/day04.dir/main.cpp.obj	712c576ab1e3e7c7
+30	205	7203600700077481	day04_autogen/mocs_compilation.cpp	4ffcb2af8ea8f382
+30	205	7203600700077481	C:/Users/zmq/coding/Qt/04_signal_slots/out/build/x64-Debug/day04_autogen/mocs_compilation.cpp	4ffcb2af8ea8f382
+339	2789	7203596194958492	CMakeFiles/day04.dir/day04_autogen/mocs_compilation.cpp.obj	bd7de209082b1d69
+2213	2425	7203600721817678	C:/Users/zmq/coding/Qt/04_signal_slots/bin/day04.exe	ff4645ac207a0fe0
+236	2244	7203599712428734	CMakeFiles/day04.dir/Widget.cpp.obj	6699797ec9a5fd53
+209	2212	7203600720114704	CMakeFiles/day04.dir/SubWidget.cpp.obj	16d81f45805027b7
