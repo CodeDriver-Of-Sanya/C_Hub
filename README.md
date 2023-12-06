@@ -4,10 +4,10 @@
 
 ## <font color=skyblue>个人信息</font>
 - 姓名：张梦麒
-<img  src="./assets/picture.jpg" style="float:right" width="100px" margin-top="100px">
-- 电话：
-- 邮箱：
-- 求职意向：<font color=skyblue></font>
+<img  src="./assets/picture.jpg" style="float:right" width="100px">
+- 电话：16623137053
+- 邮箱：1261338615@qq.com
+- 求职意向：<font color=skyblue>前端开发</font>
 
 ## <font color=skyblue >教育背景</font>
 

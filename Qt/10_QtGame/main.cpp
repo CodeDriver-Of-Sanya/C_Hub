@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	QApplication a(argc, argv);
 
 	QGame game;
-	game.init({ 640,480 }, "第一个Qt小游戏");
+	game.init({ 480,852 }, "第一个Qt小游戏");
 	game.run();
 
 	return a.exec();

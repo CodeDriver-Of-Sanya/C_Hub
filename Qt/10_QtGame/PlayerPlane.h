@@ -8,6 +8,7 @@
 class PlayerPlane :public Sprite
 {
 public:
+	using Sprite::Sprite;
 	PlayerPlane();
 	
 	bool emitBullet();

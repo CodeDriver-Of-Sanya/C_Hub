@@ -28,6 +28,7 @@ void Sprite::update()
 	x += m_velocity.x() * m_speed;
 	y += m_velocity.y() * m_speed;
 	m_pos = { x,y };
+	m_collider = QRect(m_pos.x(), m_pos.y(), m_pixmap.width(), m_pixmap.height());
 }
 
 void Sprite::render(QPainter* p)

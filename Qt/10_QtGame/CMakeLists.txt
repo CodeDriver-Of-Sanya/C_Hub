@@ -46,7 +46,7 @@ set(PROJECT_SOURCES
 	Resource.qrc
 )
 
-add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} "EntityManager.h" "Map.h" "Map.cpp" "Global.h")
 
 #指定 exe 等目标 生成位置
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)

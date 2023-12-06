@@ -103,6 +103,15 @@ build CMakeFiles\10_QtGame.dir\Bullet.cpp.obj: CXX_COMPILER__10_QtGame_unscanned
   TARGET_COMPILE_PDB = CMakeFiles\10_QtGame.dir\
   TARGET_PDB = 10_QtGame.pdb
 
+build CMakeFiles\10_QtGame.dir\Map.cpp.obj: CXX_COMPILER__10_QtGame_unscanned_Debug C$:\Users\zmq\coding\Qt\10_QtGame\Map.cpp || cmake_object_order_depends_target_10_QtGame
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /Zc:__cplusplus -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -IC:\Users\zmq\coding\Qt\10_QtGame\out\build\x64-Debug\10_QtGame_autogen\include -external:IC:\Qt\6.5.2\msvc2019_64\include -external:IC:\Qt\6.5.2\msvc2019_64\include\QtWidgets -external:IC:\Qt\6.5.2\msvc2019_64\include\QtCore -external:IC:\Qt\6.5.2\msvc2019_64\mkspecs\win32-msvc -external:IC:\Qt\6.5.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\10_QtGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\10_QtGame.dir
+  TARGET_COMPILE_PDB = CMakeFiles\10_QtGame.dir\
+  TARGET_PDB = 10_QtGame.pdb
+
 build CMakeFiles\10_QtGame.dir\10_QtGame_autogen\EWIEGA46WW\qrc_Resource.cpp.obj: CXX_COMPILER__10_QtGame_unscanned_Debug C$:\Users\zmq\coding\Qt\10_QtGame\out\build\x64-Debug\10_QtGame_autogen\EWIEGA46WW\qrc_Resource.cpp || cmake_object_order_depends_target_10_QtGame
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /Zc:__cplusplus -Zc:__cplusplus -permissive- -utf-8
@@ -120,7 +129,7 @@ build CMakeFiles\10_QtGame.dir\10_QtGame_autogen\EWIEGA46WW\qrc_Resource.cpp.obj
 #############################################
 # Link the executable 10_QtGame.exe
 
-build 10_QtGame.exe: CXX_EXECUTABLE_LINKER__10_QtGame_Debug CMakeFiles\10_QtGame.dir\10_QtGame_autogen\mocs_compilation.cpp.obj CMakeFiles\10_QtGame.dir\main.cpp.obj CMakeFiles\10_QtGame.dir\QGame.cpp.obj CMakeFiles\10_QtGame.dir\Sprite.cpp.obj CMakeFiles\10_QtGame.dir\PlayerPlane.cpp.obj CMakeFiles\10_QtGame.dir\Bullet.cpp.obj CMakeFiles\10_QtGame.dir\10_QtGame_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Widgetsd.lib C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Guid.lib C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Cored.lib || 10_QtGame_autogen 10_QtGame_autogen_timestamp_deps
+build 10_QtGame.exe: CXX_EXECUTABLE_LINKER__10_QtGame_Debug CMakeFiles\10_QtGame.dir\10_QtGame_autogen\mocs_compilation.cpp.obj CMakeFiles\10_QtGame.dir\main.cpp.obj CMakeFiles\10_QtGame.dir\QGame.cpp.obj CMakeFiles\10_QtGame.dir\Sprite.cpp.obj CMakeFiles\10_QtGame.dir\PlayerPlane.cpp.obj CMakeFiles\10_QtGame.dir\Bullet.cpp.obj CMakeFiles\10_QtGame.dir\Map.cpp.obj CMakeFiles\10_QtGame.dir\10_QtGame_autogen\EWIEGA46WW\qrc_Resource.cpp.obj | C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Widgetsd.lib C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Guid.lib C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Cored.lib || 10_QtGame_autogen 10_QtGame_autogen_timestamp_deps
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\Qt\6.5.2\msvc2019_64\lib\Qt6Widgetsd.lib  C:\Qt\6.5.2\msvc2019_64\lib\Qt6Guid.lib  C:\Qt\6.5.2\msvc2019_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  d3d11.lib  dxgi.lib  dxguid.lib  dcomp.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

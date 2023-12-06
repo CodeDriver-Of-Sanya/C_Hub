@@ -1,9 +1,15 @@
 ﻿#include "QGame.h"
 #include"Sprite.h"
+#include "EntityManager.h"]
+#include "PlayerPlane.h"
+#include "Map.h"
 
 #include <qapplication.h>
 #include<qpainter.h>
 #include<QKeyEvent>
+#include<qrandom.h>
+
+#define qRandom(min,max) QRandomGenerator::global()->bounded(min, max)
 
 static QGame* ins = nullptr;
 QGame* QGame::instance()
@@ -28,7 +34,7 @@ QGame::~QGame()
 	clean();
 }
 
-Sprite* player;
+PlayerPlane* player;
 
 void QGame::init(const QSize& size, const QString& title)
 {
@@ -37,7 +43,9 @@ void QGame::init(const QSize& size, const QString& title)
 	m_isRunning = true;
 	setMouseTracking(true);
 
-	player = new Sprite(":/Resource/images/hero1.png");
+	eMgr.addEntity(new Map);
+	player = eMgr.addEntity(new PlayerPlane(":/Resource/images/hero1.png"));
+	player->setType(Player);
 }
 
 void QGame::clean()
@@ -46,12 +54,45 @@ void QGame::clean()
 
 void QGame::update(int)
 {
-	player->update();
+	eMgr.refresh();
+	eMgr.update();
+	static int gapCnt = 0;
+	//子弹生成时间间隔控制
+	if (gapCnt % player->gap() == 0) {
+		player->emitBullet();
+	}
+	gapCnt++;
+
+	//敌机生成时间间隔控制
+	if (gapCnt % 50 == 0) {
+		QStringList efile = { ":/Resource/images/enemy1.png",":/Resource/images/enemy2.png" };
+		auto enemy = new Sprite(efile[qRandom(0,2)]);
+		enemy->velocity().setY(1);
+		enemy->setPos(QVector2D(qRandom(0, width()- enemy->size().width()), 0 - enemy->size().height()));
+		enemy->setType(Enemy);
+		eMgr.addEntity(enemy);
+	}
+
+	//获取子弹列表
+	auto bullet_list = eMgr.getSpriteByType(bullet);
+	//获取敌机列表
+	auto enemy_list = eMgr.getSpriteByType(Enemy);
+
+	for (auto& e : enemy_list) {
+		for (auto& b : bullet_list) {
+			if (e->collider().intersects(b->collider())) {
+				e->destory();
+				b->destory();
+				break;
+			}
+		}
+	}
+
 }
 
 void QGame::render(QPainter* p)
 {
-	player->render(p);
+	eMgr.render(p);
 }
 
 bool QGame::isRunning() const

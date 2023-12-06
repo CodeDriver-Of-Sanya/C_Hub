@@ -265,6 +265,24 @@
 			null
 		],
 		[
+			"C:/Users/zmq/coding/Qt/10_QtGame/EntityManager.h",
+			"MU",
+			"EWIEGA46WW/moc_EntityManager.cpp",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/Qt/10_QtGame/Global.h",
+			"MU",
+			"EWIEGA46WW/moc_Global.cpp",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/Qt/10_QtGame/Map.h",
+			"MU",
+			"EWIEGA46WW/moc_Map.cpp",
+			null
+		],
+		[
 			"C:/Users/zmq/coding/Qt/10_QtGame/PlayerPlane.h",
 			"MU",
 			"EWIEGA46WW/moc_PlayerPlane.cpp",
@@ -338,6 +356,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/zmq/coding/Qt/10_QtGame/Bullet.cpp", "MU", null ],
+		[ "C:/Users/zmq/coding/Qt/10_QtGame/Map.cpp", "MU", null ],
 		[ "C:/Users/zmq/coding/Qt/10_QtGame/PlayerPlane.cpp", "MU", null ],
 		[ "C:/Users/zmq/coding/Qt/10_QtGame/QGame.cpp", "MU", null ],
 		[ "C:/Users/zmq/coding/Qt/10_QtGame/Sprite.cpp", "MU", null ],
