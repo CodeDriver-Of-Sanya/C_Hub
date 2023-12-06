@@ -1,0 +1,8 @@
+# ninja log v5
+5	129	7235701923529765	11_layout_autogen/timestamp	9280dd1aa8061d7b
+5	129	7235701923529765	11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+5	129	7235701923529765	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/timestamp	9280dd1aa8061d7b
+5	129	7235701923529765	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+129	175	7235701924412694	CMakeFiles/11_layout.dir/11_layout_autogen/mocs_compilation.cpp.obj	4c398ef9c6af9262
+135	2189	7235701944506203	CMakeFiles/11_layout.dir/main.cpp.obj	89f21134fb8c4413
+2190	2441	7235701946914607	11_layout.exe	a747de30ff0aea25

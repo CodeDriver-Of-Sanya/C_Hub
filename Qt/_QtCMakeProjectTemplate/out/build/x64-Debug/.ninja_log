@@ -1,8 +1,0 @@
-# ninja log v5
-5	273	7203614711746622	CMakeProject1_autogen/timestamp	76d4126d1606ba65
-5	273	7203614711746622	CMakeProject1_autogen/mocs_compilation.cpp	76d4126d1606ba65
-5	273	7203614711746622	C:/Users/zmq/coding/Qt/_QtCMakeProjectTemplate/out/build/x64-Debug/CMakeProject1_autogen/timestamp	76d4126d1606ba65
-5	273	7203614711746622	C:/Users/zmq/coding/Qt/_QtCMakeProjectTemplate/out/build/x64-Debug/CMakeProject1_autogen/mocs_compilation.cpp	76d4126d1606ba65
-273	318	7203614712722723	CMakeFiles/CMakeProject1.dir/CMakeProject1_autogen/mocs_compilation.cpp.obj	c3b71750f8bc6f96
-281	2098	7203614730487501	CMakeFiles/CMakeProject1.dir/main.cpp.obj	100c2c59e69c076c
-2099	2420	7203614733582675	CMakeProject1.exe	64ad330b7a4d8a47
