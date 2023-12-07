@@ -1,8 +1,20 @@
 # ninja log v5
-5	129	7235701923529765	11_layout_autogen/timestamp	9280dd1aa8061d7b
-5	129	7235701923529765	11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
-5	129	7235701923529765	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/timestamp	9280dd1aa8061d7b
-5	129	7235701923529765	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+6	124	7235733235283117	11_layout_autogen/timestamp	9280dd1aa8061d7b
+6	124	7235733235283117	11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+6	124	7235733235283117	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/timestamp	9280dd1aa8061d7b
+126	1986	7235733253869614	CMakeFiles/11_layout.dir/main.cpp.obj	89f21134fb8c4413
+6	124	7235733235283117	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
 129	175	7235701924412694	CMakeFiles/11_layout.dir/11_layout_autogen/mocs_compilation.cpp.obj	4c398ef9c6af9262
-135	2189	7235701944506203	CMakeFiles/11_layout.dir/main.cpp.obj	89f21134fb8c4413
-2190	2441	7235701946914607	11_layout.exe	a747de30ff0aea25
+1986	2178	7235733255459467	11_layout.exe	a747de30ff0aea25
+7	126	7235733843614718	11_layout_autogen/timestamp	9280dd1aa8061d7b
+7	126	7235733843614718	11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+7	126	7235733843614718	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/timestamp	9280dd1aa8061d7b
+7	126	7235733843614718	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+129	2019	7235733862493808	CMakeFiles/11_layout.dir/main.cpp.obj	89f21134fb8c4413
+2019	2208	7235733864037178	11_layout.exe	a747de30ff0aea25
+7	140	7235734571946057	11_layout_autogen/timestamp	9280dd1aa8061d7b
+7	140	7235734571946057	11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+7	140	7235734571946057	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/timestamp	9280dd1aa8061d7b
+7	140	7235734571946057	C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/mocs_compilation.cpp	9280dd1aa8061d7b
+143	2105	7235734591548710	CMakeFiles/11_layout.dir/main.cpp.obj	89f21134fb8c4413
+2105	2287	7235734593045403	11_layout.exe	a747de30ff0aea25
