@@ -33,6 +33,7 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 #配置资源文件（将源代码添加到此项目的可执行文件）
 set(PROJECT_SOURCES 
 	main.cpp
+	Resource.qrc
 )
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
 

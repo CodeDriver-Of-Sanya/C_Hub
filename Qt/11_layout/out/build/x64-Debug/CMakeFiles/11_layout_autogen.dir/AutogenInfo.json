@@ -244,7 +244,8 @@
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-debug.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake"
+		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/Resource.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout",
 	"DEP_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/deps",

@@ -186,6 +186,7 @@
   C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
   C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
   C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/CMakeLists.txt \
+  C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/Resource.qrc \
   C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/main.cpp \
   CMakeFiles/3.27.2-msvc1/CMakeCCompiler.cmake \
   CMakeFiles/3.27.2-msvc1/CMakeCXXCompiler.cmake \
