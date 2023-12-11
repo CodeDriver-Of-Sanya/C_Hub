@@ -1,0 +1,3 @@
+C:/Users/zmq/coding/Qt/02bacetype/out/build/x64-Debug/CMakeFiles/CMakeProject1.dir
+C:/Users/zmq/coding/Qt/02bacetype/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/02bacetype/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

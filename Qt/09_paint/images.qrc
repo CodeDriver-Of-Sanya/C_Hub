@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/mask.jpg</file>
+        <file>images/mm.png</file>
+        <file>images/pix.png</file>
+        <file>images/shoot.jpg</file>
+        <file>images/snowball.jpg</file>
+        <file>images/tiled.png</file>
+        <file>images/zay.png</file>
+    </qresource>
+</RCC>

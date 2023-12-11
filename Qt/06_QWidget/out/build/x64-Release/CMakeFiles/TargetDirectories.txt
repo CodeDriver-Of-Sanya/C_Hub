@@ -1,0 +1,17 @@
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QDialog/CMakeFiles/test_QDialog.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QDialog/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QDialog/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QDialog/CMakeFiles/test_QDialog_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QDialog/CMakeFiles/test_QDialog_autogen.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QWidget/CMakeFiles/test_QWidget.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QWidget/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QWidget/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QWidget/CMakeFiles/test_QWidget_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_QWidget/CMakeFiles/test_QWidget_autogen.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/test_other.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/test_other_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/CMakeFiles/test_other_autogen.dir

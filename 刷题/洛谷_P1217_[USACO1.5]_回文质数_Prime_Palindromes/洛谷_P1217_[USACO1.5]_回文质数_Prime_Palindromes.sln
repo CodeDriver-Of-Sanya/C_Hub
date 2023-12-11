@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34219.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "洛谷_P1217_[USACO1.5]_回文质数_Prime_Palindromes", "洛谷_P1217_[USACO1.5]_回文质数_Prime_Palindromes.vcxproj", "{6FB634E4-57F2-4034-BCB8-871628D68147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Debug|x64.ActiveCfg = Debug|x64
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Debug|x64.Build.0 = Debug|x64
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Debug|x86.Build.0 = Debug|Win32
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Release|x64.ActiveCfg = Release|x64
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Release|x64.Build.0 = Release|x64
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Release|x86.ActiveCfg = Release|Win32
+		{6FB634E4-57F2-4034-BCB8-871628D68147}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3115F675-383B-4DF3-A8D9-DD78C6C1AA95}
+	EndGlobalSection
+EndGlobal

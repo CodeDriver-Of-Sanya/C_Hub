@@ -1,0 +1,12 @@
+# ninja log v5
+6	251	7212327150870991	test_other/test_other_autogen/timestamp	96989dd8e83744cc
+6	251	7212327150870991	test_other/test_other_autogen/mocs_compilation.cpp	96989dd8e83744cc
+6	251	7212327150870991	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/test_other_autogen/timestamp	96989dd8e83744cc
+6	251	7212327150870991	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/test_other_autogen/mocs_compilation.cpp	96989dd8e83744cc
+252	382	7212327152345956	test_other/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp	a188a83cf3e976d8
+252	382	7212327152345956	C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release/test_other/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp	a188a83cf3e976d8
+383	437	7212327153168052	test_other/CMakeFiles/test_other.dir/test_other_autogen/mocs_compilation.cpp.obj	167f472b94da15f2
+396	457	7212327153368577	test_other/CMakeFiles/test_other.dir/icon.rc.res	bc9467d8adb82abc
+404	511	7212327153896959	test_other/CMakeFiles/test_other.dir/test_other_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	3f511acef557334b
+389	2116	7212327169917781	test_other/CMakeFiles/test_other.dir/main.cpp.obj	85a0299869152262
+2118	2347	7212327172148147	test_other/test_other.exe	7b2229db2f00353d
