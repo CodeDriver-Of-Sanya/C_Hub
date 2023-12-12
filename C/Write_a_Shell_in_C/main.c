@@ -1,37 +1,37 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<stdlib.h>
 
 #define LSH_RL_BUFSIZE 1024
 
-//ÃüÁîĞĞÖ÷³ÌĞò
+//å‘½ä»¤è¡Œä¸»ç¨‹åº
 void lsh_loop();
-//¶ÁÈ¡ÓÃ»§ÊäÈëµÄÃüÁîº¯Êı
+//è¯»å–ç”¨æˆ·è¾“å…¥çš„å‘½ä»¤å‡½æ•°
 char* lsh_read_line();
 
 int main()
 {
 
-	//¼ÓÔØÅäÖÃÎÄ¼ş£¨Èç¹ûÓĞµÄ»°£©
+	//åŠ è½½é…ç½®æ–‡ä»¶ï¼ˆå¦‚æœæœ‰çš„è¯ï¼‰
 
-	//ÔËĞĞÊäÈëÃüÁîµÄÖ÷Ñ­»·
+	//è¿è¡Œè¾“å…¥å‘½ä»¤çš„ä¸»å¾ªç¯
 	lsh_loop();
 
-	//Ö´ĞĞ ¹Ø»ú¡¢ÇåÀí²Ù×÷£¨Perform any shutdown/cleanup£©
+	//æ‰§è¡Œ å…³æœºã€æ¸…ç†æ“ä½œï¼ˆPerform any shutdown/cleanupï¼‰
 
 	return EXIT_SUCCESS;
 }
 
 void lsh_loop()
 {
-	//1.½ÓÊÕÃüÁî
+	//1.æ¥æ”¶å‘½ä»¤
 
-	//2.·ÖÎöÃüÁî
+	//2.åˆ†æå‘½ä»¤
 
-	//3.Ö´ĞĞ½âÎö¹ıµÄÃüÁî
+	//3.æ‰§è¡Œè§£æè¿‡çš„å‘½ä»¤
 
-	char* line;//½ÓÊÕµÄÃüÁîĞĞ
-	char** args;//ÃüÁîĞĞ²ÎÊı·Ö¸îºóµÄ²ÎÊı
-	int status;//ÊÇ·ñ¼ÌĞøÊäÈëµÄ×´Ì¬²ÎÊı
+	char* line;//æ¥æ”¶çš„å‘½ä»¤è¡Œ
+	char** args;//å‘½ä»¤è¡Œå‚æ•°åˆ†å‰²åçš„å‚æ•°
+	int status;//æ˜¯å¦ç»§ç»­è¾“å…¥çš„çŠ¶æ€å‚æ•°
 
 	do
 	{
@@ -51,38 +51,38 @@ char* lsh_read_line()
 	int bufSize = LSH_RL_BUFSIZE;
 	char* pbuf = malloc(bufSize * sizeof(char));
 	int position = 0;
-	int c;//½ÓÊÕ×Ö·û,ÎªÁËÄÜÓëEOF½øĞĞÅĞ¶Ï£¬ĞèÒªÓÃintÀàĞÍ½ÓÊÕ×Ö·û£¬EOFÊÇÕûÊıÀàĞÍ
+	int c;//æ¥æ”¶å­—ç¬¦,ä¸ºäº†èƒ½ä¸EOFè¿›è¡Œåˆ¤æ–­ï¼Œéœ€è¦ç”¨intç±»å‹æ¥æ”¶å­—ç¬¦ï¼ŒEOFæ˜¯æ•´æ•°ç±»å‹
 	
-	if (!pbuf) {//¿ª¿Õ¼äÊ§°Ü¾Í ±¨´í È»ºó ÍË³ö
-		fprintf(stderr, "lsh: mallocation error\n");//ÓÃÎÄ¼şÁ÷Êä³öº¯Êı£¬½«´íÎóÊä³öµ½stderrÖĞ		//https://blog.csdn.net/JDSNYD/article/details/133436052 ¡ûfprintfÓÃ·¨Ïê½â
+	if (!pbuf) {//å¼€ç©ºé—´å¤±è´¥å°± æŠ¥é”™ ç„¶å é€€å‡º
+		fprintf(stderr, "lsh: mallocation error\n");//ç”¨æ–‡ä»¶æµè¾“å‡ºå‡½æ•°ï¼Œå°†é”™è¯¯è¾“å‡ºåˆ°stderrä¸­		//https://blog.csdn.net/JDSNYD/article/details/133436052 â†fprintfç”¨æ³•è¯¦è§£
 		exit(EXIT_FAILURE);
 	}
 
 	while (1)
 	{
-		//Ò»¸ö×Ö·ûÒ»¸ö×Ö·ûµØ½ÓÊÕ
+		//ä¸€ä¸ªå­—ç¬¦ä¸€ä¸ªå­—ç¬¦åœ°æ¥æ”¶
 		c = getchar();
 
-		//ÅĞ¶Ïµ±Ç°¶Áµ½µÄ×Ö·ûÊÇ²»ÊÇ EOF »òÕß \n£¨»Ø³µ£©
+		//åˆ¤æ–­å½“å‰è¯»åˆ°çš„å­—ç¬¦æ˜¯ä¸æ˜¯ EOF æˆ–è€… \nï¼ˆå›è½¦ï¼‰
 		if (c == '\n' || c == EOF)
 		{
-			//ÈôÊÇ£¬ÔÚÒÑ¶ÁÈ¡µÄÊı×éÖĞ×îÄ©Î²×·¼Ó \0 ²¢return³öÈ¥£¬½áÊøÊäÈë¶ÁÈ¡
+			//è‹¥æ˜¯ï¼Œåœ¨å·²è¯»å–çš„æ•°ç»„ä¸­æœ€æœ«å°¾è¿½åŠ  \0 å¹¶returnå‡ºå»ï¼Œç»“æŸè¾“å…¥è¯»å–
 			pbuf[position] = '\n';
 			return pbuf;
 		}
 		else {
-			//Èô²»ÊÇ£¬Î²²å·¨·ÅÈëpbuf²¢¼ÌĞø¶Á×Ö·û
+			//è‹¥ä¸æ˜¯ï¼Œå°¾æ’æ³•æ”¾å…¥pbufå¹¶ç»§ç»­è¯»å­—ç¬¦
 			pbuf[position] = c;
 		}
 
-		position++;//Î»ÖÃÖ¸ÏòÏòºóÅ²Ò»Î»
+		position++;//ä½ç½®æŒ‡å‘å‘åæŒªä¸€ä½
 
-		//ÅĞ¶Ï position ÊÇ·ñ³¬¹ı£¨´æÂú£©bufSize ÈôÊÇ£¬ÔòÖØĞÂ·ÖÅä¸ü´óµÄ¿Õ¼ä
+		//åˆ¤æ–­ position æ˜¯å¦è¶…è¿‡ï¼ˆå­˜æ»¡ï¼‰bufSize è‹¥æ˜¯ï¼Œåˆ™é‡æ–°åˆ†é…æ›´å¤§çš„ç©ºé—´
 		if (position >= bufSize)
 		{
 			bufSize += LSH_RL_BUFSIZE;
 			pbuf = realloc(pbuf, bufSize);
-			//¼ì²â¿Õ¼äÊÇ·ñ·ÖÅä³É¹¦
+			//æ£€æµ‹ç©ºé—´æ˜¯å¦åˆ†é…æˆåŠŸ
 			if (!pbuf)
 			{
 				fprintf(stderr, "lsh: reallocation error\n");
