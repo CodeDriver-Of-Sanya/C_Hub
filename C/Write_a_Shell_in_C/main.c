@@ -1,12 +1,19 @@
 ﻿#include<stdio.h>
 #include<stdlib.h>
+#include<sys/types.h>
 
 #define LSH_RL_BUFSIZE 1024
+#define LSH_TOK_BUFSIZE 64
+#define LSH_TOK_DELIM " \t\r\n\a"//delimiters 分隔符
 
 //命令行主程序
 void lsh_loop();
 //读取用户输入的命令函数
 char* lsh_read_line();
+//解析传入的字符串命令行（将接收到的str命令行分割成 参数列表）
+char** lsh_split_line(char* line);
+//根据命令行解析来的参数列表，启动自己的shell
+int lsh_launch(char** args);
 
 int main()
 {
@@ -96,4 +103,51 @@ char* lsh_read_line()
 
 
 	return NULL;
+}
+
+char** lsh_split_line(char* line)
+{
+	int bufsize = LSH_TOK_BUFSIZE, position = 0;
+	char** pparr_token = malloc(bufsize * sizeof(char*));
+	if (!pparr_token)
+	{
+		fprintf(stderr, "lsh: allocation error\n");
+		exit(EXIT_FAILURE);
+	}
+	char* token;
+
+	//使用strtok分割字符串
+	token = strtok(line, LSH_TOK_DELIM);
+	while (token != NULL)
+	{
+		pparr_token[position++] = token;
+
+		//如果存满了记得扩容
+		if (position >= bufsize)
+		{
+			bufsize += LSH_TOK_BUFSIZE;
+			pparr_token = realloc(pparr_token, bufsize * sizeof(char*));
+			if (!pparr_token) {
+				fprintf(stderr, "lsh: reallocation error\n");
+				exit(EXIT_FAILURE);
+			}
+		}
+
+		//接着从上次的分隔符后面继续分
+		token = strtok(NULL, LSH_TOK_DELIM);
+	}
+	//命令行全部读取完后在末尾添加一个NULL作为标记
+	pparr_token[position] = NULL;
+	return pparr_token;
+}
+
+int lsh_launch(char** args)
+{
+	//https://blog.csdn.net/m0_47170940/article/details/123913377
+	//pid_t就是一个short类型变量，就是一个short的数字而已，实际表示的是内核中的进程表的索引。
+	short pid, wpid;//pid_t 是linux里的，没办法这里只能用short
+
+
+
+	return 0;
 }

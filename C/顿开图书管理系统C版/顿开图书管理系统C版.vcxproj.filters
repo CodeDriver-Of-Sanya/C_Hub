@@ -18,5 +18,37 @@
     <ClCompile Include="源.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="List.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Configure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
