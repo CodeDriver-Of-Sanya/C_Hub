@@ -81,8 +81,3 @@ int select()
     scanf("%d", &s);
     return s;
 }
-
-void quit()
-{
-    exit(0);
-}

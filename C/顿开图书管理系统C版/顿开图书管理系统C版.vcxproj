@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="List.c" />
     <ClCompile Include="Menu.c" />
+    <ClCompile Include="Reader.c" />
+    <ClCompile Include="ReaderManager.c" />
     <ClCompile Include="User.c" />
     <ClCompile Include="UserManager.c" />
     <ClCompile Include="源.c" />
@@ -137,6 +139,8 @@
     <ClInclude Include="Configure.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Reader.h" />
+    <ClInclude Include="ReaderManager.h" />
     <ClInclude Include="SeqList.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="UserManager.h" />

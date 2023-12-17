@@ -93,6 +93,7 @@ variant list_search(List* list, CMPCALLBACK cmp, variant _data)
 		if (cmp(curNode->data, _data)) {
 			return curNode->data;
 		}
+		curNode = curNode->pnext;
 	}
 	return NULL;
 }

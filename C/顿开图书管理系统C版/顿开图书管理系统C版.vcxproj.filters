@@ -30,6 +30,12 @@
     <ClCompile Include="UserManager.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Reader.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaderManager.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -48,6 +54,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="UserManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReaderManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

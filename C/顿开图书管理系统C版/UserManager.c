@@ -1,9 +1,11 @@
-#include "UserManager.h"
+ï»¿#include "UserManager.h"
 #include"Menu.h"
+#include<string.h>
 
 void userManager_init(UserManager* um)
 {
-	list_init(&um->userList);//³õÊ¼»¯ÓÃ»§list
+	list_init(&um->userList);//åˆå§‹åŒ–ç”¨æˆ·list
+	um->curUser = NULL;//æœ€å¼€å§‹è¿˜æ²¡ç™»å½•ï¼Œæ‰€ä»¥åˆå§‹åŒ–ä¸ºNULL
 	userManager_loadData(um, "./data/user.txt");
 }
 
@@ -16,15 +18,15 @@ void userManager_loadData(UserManager* um, const char* filename)
 		return;
 	}
 
-	//»ñÈ¡Êý¾Ý
+	//èŽ·å–æ•°æ®
 	char buf[BUFSIZ] = { 0 };
-	fgets(buf, BUFSIZ, fp);//µÚÒ»´ÎÏÈ°Ñ±íÍ·¶Á³öÀ´
+	fgets(buf, BUFSIZ, fp);//ç¬¬ä¸€æ¬¡å…ˆæŠŠè¡¨å¤´è¯»å‡ºæ¥
 
-	//È»ºó¿ªÊ¼»ñÈ¡Êý¾Ý
+	//ç„¶åŽå¼€å§‹èŽ·å–æ•°æ®
 	while (!feof(fp))
 	{
 		fgets(buf, BUFSIZ, fp);
-		//²ð·Ö×Ö·û´®
+		//æ‹†åˆ†å­—ç¬¦ä¸²
 		User* u = createEmptyUser();
 		if (sscanf(buf, "%llu %s %d", &u->ID, u->password, &u->type) <= 0)
 		{
@@ -37,6 +39,24 @@ void userManager_loadData(UserManager* um, const char* filename)
 	}
 
 	fclose(fp);
+}
+
+static bool cmpUser(User* u1, User* u2) {//ä¸èƒ½è¢«å¤–éƒ¨è®¿é—®çš„é™æ€æˆå‘˜å‡½æ•°
+	return (u1->ID == u2->ID && strcmp(u1->password, u2->password) == 0);
+}
+bool userManager_login(UserManager* um, unsigned long long _ID, const char* _password)
+{
+	User u;
+	u.ID = _ID;
+	strcpy(u.password, _password);
+	//æŸ¥æ‰¾_IDå’Œpasswordæ˜¯å¦å­˜åœ¨
+	User* end = list_search(&um->userList, cmpUser, &u);//è¿”å›žçš„æ˜¯ä¸€ä¸ªUseræŒ‡é’ˆ
+	if (!end)return false;
+
+	//ç™»å½•æˆåŠŸäº†å°±ä¿å­˜ä¸€ä¸‹ç™»å½•çš„ç”¨æˆ·ä¿¡æ¯
+	um->curUser = end;
+
+	return true;
 }
 
 void userManager_operation(UserManager* um)
@@ -66,7 +86,7 @@ void userManager_operation(UserManager* um)
 			userManager_modifyPassword(um);
 			break;
 		default:
-			printf("ÊäÈëµÄÑ¡ÏîÓÐÎó£¡ÇëÖØÐÂÊäÈë£¡\n");
+			printf("è¾“å…¥çš„é€‰é¡¹æœ‰è¯¯ï¼è¯·é‡æ–°è¾“å…¥ï¼\n");
 			system("pause");
 			break;
 		}
@@ -75,12 +95,12 @@ void userManager_operation(UserManager* um)
 
 void userManager_add(UserManager* um)
 {
-	printf("ÇëÊäÈëÒªÐÂÌí¼ÓµÄÓÃ»§£¨ID ÃÜÂë ÀàÐÍ£©£º");
+	printf("è¯·è¾“å…¥è¦æ–°æ·»åŠ çš„ç”¨æˆ·ï¼ˆID å¯†ç  ç±»åž‹ï¼‰ï¼š");
 	User* u = createEmptyUser();
 	if (3 == scanf("%llu %s %d", &u->ID, u->password, u->type))
 	{
 		list_pushBack(&um->userList, u);
-		printf("ÓÃ»§Ìí¼Ó³É¹¦£¡\n");
+		printf("ç”¨æˆ·æ·»åŠ æˆåŠŸï¼\n");
 	}
 
 }
@@ -94,16 +114,20 @@ bool user_cmp(variant v1, variant v2)
 void userManager_modify(UserManager* um)
 {
 	unsigned long long ID = -1;
-	printf("ÇëÊäÈëÄãÒªÐÞ¸ÄµÄÓÃ»§ID£º");
+	printf("è¯·è¾“å…¥ä½ è¦ä¿®æ”¹çš„ç”¨æˆ·IDï¼š");
 	scanf("%llu", &ID);
-	//²éÕÒ
+	//æŸ¥æ‰¾
 	User* u = list_search(&um->userList, user_cmp, ID);
 	if (u)
 	{
-
+		printf("è¯·è¾“å…¥æ–°çš„ç”¨æˆ·ç±»åž‹ï¼ˆ1ï¼Œ2ï¼Œ3ï¼‰ï¼š");
+		if (scanf("%d", &u->type) == 1)
+		{
+			printf("ä¿®æ”¹æˆåŠŸï¼\n");
+		}
 	}
 	else {
-		printf("Î´ÕÒµ½IDÊÇ %llu µÄÓÃ»§£¡\n", ID);
+		printf("æœªæ‰¾åˆ°IDæ˜¯ %llu çš„ç”¨æˆ·ï¼\n", ID);
 		system("pause");
 		return;
 	}
@@ -111,15 +135,43 @@ void userManager_modify(UserManager* um)
 
 void userManager_remove(UserManager* um)
 {
+	unsigned long long ID = -1;
+	printf("è¯·è¾“å…¥ä½ è¦åˆ é™¤çš„ç”¨æˆ·IDï¼š");
+	scanf("%llu", &ID);
+	//æŸ¥æ‰¾
+	User* u = list_search(&um->userList, user_cmp, ID);
+	if (!u)
+	{
+		printf("æœªæ‰¾åˆ°IDæ˜¯ %llu çš„ç”¨æˆ·ï¼\n", ID);
+		system("pause");
+		return;
+	}
+	list_removeOne(&um->userList, u);
+	printf("ç”¨æˆ·åˆ é™¤æˆåŠŸï¼\n");
+
 }
 
 void userManager_show(UserManager* um)
 {
-	printf("%-10s %-10s %s\n", "ÓÃ»§ID","ÓÃ»§ÃÜÂë","ÓÃ»§ÀàÐÍ");
+	printf("%-10s %-10s %s\n", "ç”¨æˆ·ID","ç”¨æˆ·å¯†ç ","ç”¨æˆ·ç±»åž‹");
 	list_transfrom(&um->userList, user_print);
 	system("pause");
 }
 
 void userManager_modifyPassword(UserManager* um)
 {
+	if (!um->curUser)
+	{
+		printf("æ— ç™»å½•ç”¨æˆ·ä¿¡æ¯ï¼\n");
+		system("pause");
+		return;
+	}
+
+	printf("è¯·è¾“å…¥æƒ³è¦è®¾ç½®çš„æ–°å¯†ç ï¼š");
+	//gets_s(um->curUser->password, 10);
+	scanf("%s", um->curUser->password);
+	printf("ä¿®æ”¹æˆåŠŸï¼\næ–°å¯†ç æ˜¯ï¼š%s\n", um->curUser->password);
+	system("pause");
+	return;
+
 }

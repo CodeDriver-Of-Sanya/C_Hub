@@ -6,6 +6,7 @@
 typedef struct UserManager
 {
 	User userList;
+	User* curUser;//记录一下当前登录的用户
 }UserManager;
 
 //初始化管理结构
@@ -13,6 +14,9 @@ void userManager_init(UserManager* um);
 
 //加载用户数据
 void userManager_loadData(UserManager* um,const char* filename);
+
+//用户登录验证
+bool userManager_login(UserManager* um, unsigned long long _ID, const char* _password);
 
 //用户管理操作
 void userManager_operation(UserManager* um);
