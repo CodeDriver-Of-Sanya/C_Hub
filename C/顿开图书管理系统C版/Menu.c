@@ -59,7 +59,7 @@ int bookSearchMenu()
     printf("*      2.按书名查询          *\n");
     printf("*      3.按作者查询          *\n");
     printf("*      4.按出版社查询        *\n");
-    printf("*      0.返回主菜单          *\n");
+    printf("*      0.返回上级            *\n");
     printf("********=************=********\n");
     return select();
 }

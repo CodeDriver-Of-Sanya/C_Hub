@@ -18,4 +18,7 @@ Reader* createEmptyReader();
 //打印读者信息
 void reader_print(Reader* r);
 
+//对比读者ID
+bool reader_cmpID(Reader* r, unsigned long long _ID);
+
 #endif // !_READER_H_

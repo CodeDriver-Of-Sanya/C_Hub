@@ -36,6 +36,12 @@
     <ClCompile Include="ReaderManager.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Book.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookManage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -60,6 +66,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ReaderManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BookManage.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

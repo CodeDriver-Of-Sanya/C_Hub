@@ -1,5 +1,5 @@
 ﻿#include "ReaderManager.h"
-#include"Menu.h"
+#include "Menu.h"
 
 void readerManager_init(ReaderManager* rm)
 {
@@ -25,6 +25,7 @@ void readerManager_loadData(ReaderManager* rm, const char* filename)
 		if (ret <= 0)
 		{
 			printf("loadReaderData failed!\n");
+			system("pause");
 			break;
 		}
 		list_pushBack(&rm->readerList, r);
@@ -69,19 +70,66 @@ void readerManager_operation(ReaderManager* rm)
 
 void readerManager_add(ReaderManager* rm)
 {
-
+	Reader* newR = createEmptyReader();
+	printf("请输入读者（读者号 读者名 单位 联系方式）：");
+	scanf("%llu %s %s %s", &newR->readerID, newR->name, newR->unit, newR->tel);
+	newR->borrowNum = 10;
+	newR->borrowedNum = 0;
+	list_pushBack(&rm->readerList, newR);
+	printf("读者新建成功！\n");
+	system("pause");
 }
 
 void readerManager_modify(ReaderManager* rm)
 {
+	unsigned long long destID;
+	printf("请输入要修改的读者号：");
+	scanf("%llu", &destID);
+	Reader* destR = list_search(&rm->readerList, reader_cmpID, destID);
+	if (!destR)
+	{
+		printf("未找到读者号为 &llu 的读者\n", destID);
+		return;
+	}
+	printf("请输入新的联系方式：");
+	scanf("%s", &destR->tel);
+	printf("修改成功！\n");
+	system("pause");
 }
 
 void readerManager_remove(ReaderManager* rm)
 {
+	unsigned long long destID;
+	printf("请输入要删除的读者号：");
+	scanf("%llu", &destID);
+	Reader* destR = list_search(&rm->readerList, reader_cmpID, destID);
+	if (!destR)
+	{
+		printf("未找到读者号为 %llu 的读者\n", destID);
+		system("pause");
+		return;
+	}
+	list_removeOne(&rm->readerList, destR);
+	printf("删除成功\n");
+	system("pause");
 }
 
 void readerManager_search(ReaderManager* rm)
 {
+	unsigned long long destID;
+	printf("请输入要查找的读者号：");
+	scanf("%llu", &destID);
+	Reader* destR = list_search(&rm->readerList, reader_cmpID, destID);
+	if (!destR)
+	{
+		printf("未找到读者号为 %llu 的读者\n", destID);
+		system("pause");
+		return;
+	}
+
+	reader_print(destR);
+	system("pause");
+
 }
 
 void readerManager_show(ReaderManager* rm)

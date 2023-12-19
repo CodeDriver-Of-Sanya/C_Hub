@@ -57,7 +57,7 @@ void list_removeOne(List* list, variant _data)
 	Node* prevNode = list->phead;
 	while (curNode) 
 	{
-		if (curNode->pnext->data == _data) {
+		if (curNode->data == _data) {
 			break;
 		}
 		prevNode = curNode;
