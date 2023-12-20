@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Book.c" />
     <ClCompile Include="BookManage.c" />
+    <ClCompile Include="Circulate.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Menu.c" />
     <ClCompile Include="Reader.c" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="Book.h" />
     <ClInclude Include="BookManage.h" />
+    <ClInclude Include="Circulate.h" />
     <ClInclude Include="Configure.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Menu.h" />

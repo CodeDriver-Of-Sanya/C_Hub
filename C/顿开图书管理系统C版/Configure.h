@@ -5,6 +5,7 @@
 #include<stdbool.h>
 #include<malloc.h>
 #include<stdlib.h>
+#include<string.h>
 
 //抽象数据类型
 typedef void* variant;

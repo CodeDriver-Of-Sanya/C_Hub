@@ -136,11 +136,20 @@ void bookManage_search(BookManage* bm)
 
 void bookManage_statistics(BookManage* bm)
 {
+	//统计总共有多少本书
+	int cnt = 0;
+	foreach(Book * b, &bm->books)
+	{
+		cnt += b->bookNum;
+	}
+	printf("图书馆总藏书【%d】本\n",cnt);
+	system("pause");
 }
 
 void bookManage_search_byBookNo(BookManage* bm)
 {
 	int destBookNo = -1;
+	bool isFind = false;
 	printf("请输入要查询的图书号：");
 	scanf("%d", &destBookNo);
 	foreach(Book * b, &bm->books)
@@ -148,23 +157,90 @@ void bookManage_search_byBookNo(BookManage* bm)
 		if (b->bookNo == destBookNo)
 		{
 			book_print(b);
-			system("pause");
-			return;
+			isFind = true;
 		}
 	}
-	printf("未找到书号为 %d 的书！\n", destBookNo);
-	system("pause");
+	if (isFind) {
+		system("pause");
+	}
+	else {
+		printf("未找到书号为 %d 的书！\n", destBookNo);
+		system("pause");
+	}
 	return;
 }
 
 void bookManage_search_byBookName(BookManage* bm)
 {
+	char destBookName[20] = { 0 };
+	bool isFind = false;
+	printf("请输入要查询的图书名：");
+	scanf("%s", destBookName);
+	foreach(Book * b, &bm->books)
+	{
+		if (strcmp(b->name, destBookName)==0)
+		{
+			book_print(b);
+			isFind = true;
+		}
+	}
+	if (isFind) {
+		system("pause");
+	}
+	else {
+		printf("未找到书名为 %s 的书！\n", destBookName);
+		system("pause");
+	}
+	
+	return;
 }
 
 void bookManage_search_byAuthor(BookManage* bm)
 {
+	char destBookAuthor[20] = { 0 };
+	bool isFind = false;
+	printf("请输入要查询的图书作者：");
+	scanf("%s", destBookAuthor);
+	foreach(Book * b, &bm->books)
+	{
+		if (strcmp(b->author, destBookAuthor) == 0)
+		{
+			book_print(b);
+			isFind = true;
+		}
+	}
+	if (isFind) {
+		system("pause");
+	}
+	else {
+		printf("未找到作者为 %s 的书！\n", destBookAuthor);
+		system("pause");
+	}
+	
+	return;
 }
 
 void bookManage_search_byPublish(BookManage* bm)
 {
+	char destBookPublish[20] = {0};
+	bool isFind = false;
+	printf("请输入要查询的图书出版社：");
+	scanf("%s", destBookPublish);
+	foreach(Book * b, &bm->books)
+	{
+		if (strcmp(b->publish, destBookPublish) == 0)
+		{
+			book_print(b);
+			isFind = true;
+		}
+	}
+	if (isFind) {
+		system("pause");
+	}
+	else {
+		printf("未找到出版社为 %s 的书！\n", destBookPublish);
+		system("pause");
+	}
+	
+	return;
 }
