@@ -36,4 +36,8 @@ void userManager_show(UserManager* um);
 //用户密码修改
 void userManager_modifyPassword(UserManager* um);
 
+//退出
+void userManager_quit(UserManager* um);
+
+
 #endif // !_USERMANAGER_H_

@@ -70,6 +70,13 @@ void readerManager_operation(ReaderManager* rm)
 
 void readerManager_add(ReaderManager* rm)
 {
+	extern User* global_curUser;
+	if (!is_bookAdmin(global_curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	Reader* newR = createEmptyReader();
 	printf("请输入读者（读者号 读者名 单位 联系方式）：");
 	scanf("%llu %s %s %s", &newR->readerID, newR->name, newR->unit, newR->tel);
@@ -82,13 +89,20 @@ void readerManager_add(ReaderManager* rm)
 
 void readerManager_modify(ReaderManager* rm)
 {
+	extern User* global_curUser;
+	if (!is_bookAdmin(global_curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	unsigned long long destID;
 	printf("请输入要修改的读者号：");
 	scanf("%llu", &destID);
 	Reader* destR = list_search(&rm->readerList, reader_cmpID, destID);
 	if (!destR)
 	{
-		printf("未找到读者号为 &llu 的读者\n", destID);
+		printf("未找到读者号为 %llu 的读者\n", destID);
 		return;
 	}
 	printf("请输入新的联系方式：");
@@ -99,6 +113,13 @@ void readerManager_modify(ReaderManager* rm)
 
 void readerManager_remove(ReaderManager* rm)
 {
+	extern User* global_curUser;
+	if (!is_bookAdmin(global_curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	unsigned long long destID;
 	printf("请输入要删除的读者号：");
 	scanf("%llu", &destID);
@@ -116,6 +137,13 @@ void readerManager_remove(ReaderManager* rm)
 
 void readerManager_search(ReaderManager* rm)
 {
+	extern User* global_curUser;
+	if (!is_bookAdmin(global_curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	unsigned long long destID;
 	printf("请输入要查找的读者号：");
 	scanf("%llu", &destID);
@@ -134,6 +162,13 @@ void readerManager_search(ReaderManager* rm)
 
 void readerManager_show(ReaderManager* rm)
 {
+	extern User* global_curUser;
+	if (!is_bookAdmin(global_curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	list_transfrom(&rm->readerList, reader_print);
 	system("pause");
 }

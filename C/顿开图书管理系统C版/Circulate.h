@@ -1,5 +1,6 @@
 ﻿#ifndef _CIRCULATE_H_
 #define _CIRCULATE_H_
+#include"Configure.h"
 
 typedef struct Circulate
 {

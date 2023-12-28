@@ -1,6 +1,9 @@
-﻿#include "UserManager.h"
+﻿#pragma warning(disable : 4996)
+#include "UserManager.h"
 #include"Menu.h"
 #include<string.h>
+
+User* global_curUser = NULL;
 
 void userManager_init(UserManager* um)
 {
@@ -14,7 +17,7 @@ void userManager_loadData(UserManager* um, const char* filename)
 	FILE* fp = fopen(filename, "r");
 	if (!fp)
 	{
-		perror("%s open failed!\n", filename);
+		perror("%userManager_loadData open failed!\n");
 		return;
 	}
 
@@ -55,6 +58,8 @@ bool userManager_login(UserManager* um, unsigned long long _ID, const char* _pas
 
 	//登录成功了就保存一下登录的用户信息
 	um->curUser = end;
+	global_curUser = end;
+	
 
 	return true;
 }
@@ -95,9 +100,15 @@ void userManager_operation(UserManager* um)
 
 void userManager_add(UserManager* um)
 {
+	if (!is_systemAdmin(um->curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	printf("请输入要新添加的用户（ID 密码 类型）：");
 	User* u = createEmptyUser();
-	if (3 == scanf("%llu %s %d", &u->ID, u->password, u->type))
+	if (3 == scanf("%llu %s %d", &u->ID, u->password, &u->type))
 	{
 		list_pushBack(&um->userList, u);
 		printf("用户添加成功！\n");
@@ -113,6 +124,12 @@ bool user_cmp(variant v1, variant v2)
 }
 void userManager_modify(UserManager* um)
 {
+	if (!is_systemAdmin(um->curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	unsigned long long ID = -1;
 	printf("请输入你要修改的用户ID：");
 	scanf("%llu", &ID);
@@ -135,6 +152,12 @@ void userManager_modify(UserManager* um)
 
 void userManager_remove(UserManager* um)
 {
+	if (!is_systemAdmin(um->curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	unsigned long long ID = -1;
 	printf("请输入你要删除的用户ID：");
 	scanf("%llu", &ID);
@@ -153,6 +176,12 @@ void userManager_remove(UserManager* um)
 
 void userManager_show(UserManager* um)
 {
+	if (!is_systemAdmin(um->curUser))
+	{
+		printf("当前登录的用户无权进行此操作！\n");
+		system("pause");
+		return;
+	}
 	printf("%-10s %-10s %s\n", "用户ID","用户密码","用户类型");
 	list_transfrom(&um->userList, user_print);
 	system("pause");
@@ -174,4 +203,9 @@ void userManager_modifyPassword(UserManager* um)
 	system("pause");
 	return;
 
+}
+
+void userManager_quit(UserManager* um)
+{
+	
 }

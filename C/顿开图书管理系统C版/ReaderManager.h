@@ -1,12 +1,13 @@
 ﻿#ifndef _READERMANAGER_H_
 #define _READERMANAGER_H_
+#include"Configure.h"
 #include"Reader.h"
 #include"List.h"
+#include"User.h"
 
 typedef struct ReaderManager
 {
 	List readerList;//读者信息链表
-
 
 }ReaderManager;
 

@@ -45,6 +45,12 @@
     <ClCompile Include="Circulate.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CirculateManage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookIndex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -78,6 +84,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Circulate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CirculateManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BookIndex.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,9 +1,11 @@
-﻿#include"Menu.h"
+﻿#pragma warning(disable : 4996)
+#include"Menu.h"
 #include"list.h"
 #include"SeqList.h"
 #include "UserManager.h"
 #include"ReaderManager.h"
 #include"BookManage.h"
+#include"CirculateManage.h"
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -14,6 +16,7 @@ typedef struct ManageMent
 	UserManager userManager;//用户管理模块
 	ReaderManager readerManager;//读者管理模块
 	BookManage bookManage;//图书管理模块
+	CirculateManage cirManage;//图书流通管理模块
 
 }ManageMent;
 
@@ -21,7 +24,8 @@ void management_init(ManageMent* mm)
 {
 	userManager_init(&mm->userManager);
 	readerManager_init(&mm->readerManager);
-	bookManage_init(&mm->bookManage);
+	bookManage_init(&mm->bookManage,"./data/book/books.txt");
+	cirManage_init(&mm->cirManage,&mm->bookManage);
 }
 
 void management_login(ManageMent* mm)
@@ -94,7 +98,7 @@ void management_run(ManageMent* mm)
 			break;
 		case 4:
 			system("cls");
-			bookCirculateMenu();
+			cirManage_operation(&mm->cirManage);
 			break;
 		default:
 			printf("输入的选项有误！请重新输入！\n");

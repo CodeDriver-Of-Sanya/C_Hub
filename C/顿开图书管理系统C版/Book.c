@@ -28,5 +28,5 @@ Book* book_byString(const char* s)
 
 void book_print(Book* b)
 {
-    printf("%-8d %-5d %-10s %-10s %-10s %-6d %d\n", b->recordNo, b->bookNo, b->name, b->author, b->publish, b->bookNum, b->lendNum);
+    printf("%-8d %-5d %-10s %-10s %-10s %-6d %d | %d %d %d |\n", b->recordNo, b->bookNo, b->name, b->author, b->publish, b->bookNum, b->lendNum,b->p1,b->p2,b->p3);
 }

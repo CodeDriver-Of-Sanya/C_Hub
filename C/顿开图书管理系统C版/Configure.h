@@ -6,6 +6,7 @@
 #include<malloc.h>
 #include<stdlib.h>
 #include<string.h>
+#include"User.h"
 
 //抽象数据类型
 typedef void* variant;

@@ -7,7 +7,7 @@ enum UserType
 {
 	UT_SysAdmin = 1,//系统管理员
 	UT_BookAdmin,//图书管理员
-	UT_CommentUser//普通用户
+	UT_CommonUser//普通用户
 };
 
 typedef struct User
@@ -22,5 +22,18 @@ User* createEmptyUser();
 
 //输出用户信息
 void user_print(User u);
+
+//保存用户信息
+void user_save(User* u, FILE* f);
+
+//判断用户是否是普通用户
+bool is_commomUser(User* u);
+
+//判断用户是否是图书管理员
+bool is_bookAdmin(User* u);
+
+//判断用户是否是系统管理员
+bool is_systemAdmin(User* u);
+
 
 #endif // !_USER_H_
