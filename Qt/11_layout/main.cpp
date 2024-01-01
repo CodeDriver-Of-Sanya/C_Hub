@@ -8,6 +8,7 @@
 #include<qgridlayout.h>
 #include<qformlayout.h>
 #include<qcombobox.h>
+#include<qplaintextedit.h>
 
 //去掉黑窗口
 #pragma comment(linker,"/subSystem:windows /entry:mainCRTStartup")
@@ -21,7 +22,8 @@ public:
 		//boxLayout();
 		//boxLayout1();
 		//gridLayout();
-		formLayout();
+		//formLayout();
+		stackedLayout();
 	}
 
 	void boxLayout()
@@ -126,16 +128,32 @@ public:
 		auto womanChx = new QCheckBox("女");
 
 		auto provinceCmb = new QComboBox;
+		provinceCmb->addItem("河北省");
+		provinceCmb->addItem("海南省");
 
 		auto flayout = new QFormLayout(this);
 		//设置换行策略
 		flayout->setRowWrapPolicy(QFormLayout::RowWrapPolicy::WrapAllRows);//总是换行
 
 		flayout->addRow("<font color=red size=3>*</font>用户名", usernameEdit);
+		flayout->addWidget(new QLabel("<font color=gray size=2>中文、英文、特殊字符</font>"));
 		flayout->addRow("密  码", passwrodEdit);
 		flayout->addRow("手机号码", mobileEdit);
 		flayout->addRow("电子邮箱", emailEdit);
+
+		auto hlayout = new QHBoxLayout;
+		hlayout->addWidget(manChx);
+		hlayout->addWidget(womanChx);
+		hlayout->addStretch();
+		flayout->addRow("性别", hlayout);
+
+		flayout->addRow("住址", provinceCmb);
+		flayout->addRow("详细地址", new QPlainTextEdit);
 	}
+	void stackedLayout() {
+
+	}
+	
 private:
 	
 };
