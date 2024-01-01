@@ -12,7 +12,7 @@ struct Zifu
 	unsigned char zf;//字符
 	unsigned int cnt;//出现次数
 	char code[HFM_CODE_LEN];//对应的哈夫曼编码
-	int idx;//下标
+	int idx;//字符数组（字典）中对应下标
 };
 //字典类型
 struct Zidian

@@ -6,6 +6,10 @@ void analysisFile(char* secFile, struct Zidian* pzd);
 struct Node* createNode(struct Zifu* pzf);
 //构建哈夫曼树
 struct Node* createHFMTree(struct Zidian* pzd);
+//根据哈夫曼树获得哈夫曼编码 并 写入字典中
+void createHFMCode(struct Node* pRoot, struct Zidian* pzd);
+//遍历待压缩文件，将对应字符的HFM编码写入压缩文件
+void writeCompressFile(const char* srcFile, const char* dstFile, struct Zidian* pzd);
 
 int main()
 {
@@ -16,6 +20,10 @@ int main()
 	analysisFile("1.txt", &zd);
 	//2.根据字典构建哈夫曼树
 	struct Node* pRoot = createHFMTree(&zd);
+	//3.根据哈夫曼树获得哈夫曼编码并写入字典
+	createHFMCode(pRoot, &zd);
+
+	while (1);
 
 	return 0;
 }
@@ -67,7 +75,6 @@ struct Node* createNode(struct Zifu* pzf)
 
 struct Node* createHFMTree(struct Zidian* pzd)
 {
-	//
 	//0 准备个数组，存放 由字典中字符创建的每个子节点指针
 	struct Node** ppArr = calloc(pzd->zf_num, sizeof(struct Node*));
 	if (!ppArr)return NULL;
@@ -126,4 +133,66 @@ struct Node* createHFMTree(struct Zidian* pzd)
 	
 	// 4 返回根节点，就是整棵树的根节点
 	return pTemp;
+}
+
+
+//判断是否是叶子节点
+bool isLeaf(struct Node* pRoot)
+{
+	if (NULL != pRoot && NULL == pRoot->pLeft && NULL == pRoot->pRight)
+	{
+		return true;
+	}
+	return false;
+}
+
+//设置HFM编码
+void setHFMCode(struct Node* pRoot, char* pCodeArr)
+{
+	char tempCodeArr[HFM_CODE_LEN] = { 0 };
+	int tempIdx = 0;
+	while (pRoot->pParent)
+	{
+		if (pRoot == pRoot->pParent->pLeft)
+		{
+			tempCodeArr[tempIdx++] = 1;
+		}
+		else
+		{
+			tempCodeArr[tempIdx++] = 2;
+		}
+		pRoot = pRoot->pParent;
+	}
+	for (int i = 0; i < tempIdx; i++)
+	{
+		pCodeArr[i] = tempCodeArr[tempIdx - 1 - i];
+	}
+}
+
+void createHFMCode(struct Node* pRoot, struct Zidian* pzd)
+{
+	if (pRoot == NULL || pzd == NULL)return;
+	int idx;
+	if (isLeaf(pRoot))
+	{
+		idx = pRoot->zf.idx;
+		setHFMCode(pRoot, pzd->zf_arr[idx].code);
+	}
+	else
+	{
+		createHFMCode(pRoot->pLeft, pzd);
+		createHFMCode(pRoot->pRight, pzd);
+	}
+
+}
+
+void writeCompressFile(const char* srcFile, const char* dstFile, struct Zidian* pzd)
+{
+	if (NULL == srcFile || NULL == dstFile || NULL == pzd)return;
+	FILE* fpDst = fopen(dstFile, "wb");
+	FILE* fpSrc = fopen(srcFile, "rb");
+
+	fwrite(pzd, 1, sizeof(struct Zidian), fpDst);
+
+
 }
