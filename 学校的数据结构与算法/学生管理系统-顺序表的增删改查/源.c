@@ -6,15 +6,16 @@
 
 /*
 学生管理系统：
-包括学号，姓名，性别，年龄
+包括学号，姓名，性别，年龄,学分
 主要功能：
 增加学生
 	尾插
 	插入指定学号后面
 	插入指定姓名后面
-	需要输入学生的学号，姓名，性别，年龄
+	需要输入学生的学号，姓名，性别，年龄，学分
 		学号必须输入并且不能有重复
 		其他的不输入就给默认值
+	每次插入完一个学生就进行一次全排序
 删除学生
 	尾删
 	根据学号删除学生
@@ -36,6 +37,7 @@ struct student
 	char name[11];			//姓名
 	char gender[3];			//性别
 	int age;				//年龄
+	double credit;			//学分
 };
 
 //创建存学生的顺序表
@@ -52,7 +54,7 @@ struct stuSqList* createSqList();
 void initSqList(struct stuSqList* l);
 
 //创建学生类型
-struct student createStu(long long int ID, char* name, char* gender, int age);
+struct student createStu(long long int ID, char* name, char* gender, int age, double credit);
 
 //学生添加菜单
 void stuInsertMenu(struct stuSqList* list);
@@ -98,6 +100,9 @@ void modifyByID(struct stuSqList* l, long long int ID);
 
 //根据姓名修改学生信息
 void modifyByName(struct stuSqList* l, char* name);
+
+//根据学分进行升序排序
+void sort(struct stuSqList* l);
 
 //文件操作
 //退出系统的时候保存到本地文件 stuInfo.txt 中
@@ -188,10 +193,11 @@ void initSqList(struct stuSqList* l) {
 	while (NULL == fp)
 	{
 		printf("文件打开失败，正在重试...\n");
-		fp = fopen("stuInfo.txt", "w+");
+		fp = fopen("stuInfo.txt", "r+");
 	}
 	struct student s;
-	while (EOF != fscanf(fp, "%lld %s %s %d", &s.ID, s.name, s.gender, &s.age)) {
+	while (EOF != fscanf(fp, "%lld %s %s %d %lf", &s.ID, s.name, s.gender, &s.age, &s.credit))
+	{
 		push(l, s);
 	}
 	//关闭文件
@@ -199,12 +205,14 @@ void initSqList(struct stuSqList* l) {
 }
 
 //创建学生类型
-struct student createStu(long long int ID, char* name, char* gender, int age){
+struct student createStu(long long int ID, char* name, char* gender, int age, double credit)
+{
 	struct student s;
 	s.ID = ID;
 	strcpy(s.name, name);
 	strcpy(s.gender, gender);
 	s.age = age;
+	s.credit = credit;
 	//返回出去
 	return s;
 }
@@ -217,6 +225,7 @@ void stuInsertMenu(struct stuSqList* list)
 	int _age;
 	char _name[11];
 	char _gender[3];
+	double _credit;
 	//判断学号是否存在
 	int isExit;
 	//某学号
@@ -271,11 +280,13 @@ void stuInsertMenu(struct stuSqList* list)
 			scanf("%s", _gender);
 			printf("请输入添加学生的年龄：");
 			scanf("%d", &_age);
+			printf("请输入添加学生的学分：");
+			scanf("%lf", &_credit);
 			//printf("\t\t -------------------------------\n");
 			//system("pause");
 			//printf("%lld %s %s %d\n", _ID, _name, _gender, _age);
 			//system("pause");
-			s = createStu(_ID, _name, _gender, _age);
+			s = createStu(_ID, _name, _gender, _age,_credit);
 			push(list, s);
 			printf("添加成功!\n");
 			system("pause");
@@ -302,12 +313,14 @@ void stuInsertMenu(struct stuSqList* list)
 			scanf("%d", &_age);
 			printf("请输入某学号：");
 			scanf("%lld", &selectID);
+			printf("请输入添加学生的学分：");
+			scanf("%lf", &_credit);
 
 			//printf("\t\t -------------------------------\n");
 			//system("pause");
 			//printf("%lld %s %s %d\n", _ID, _name, _gender, _age);
 			//system("pause");
-			s = createStu(_ID, _name, _gender, _age);
+			s = createStu(_ID, _name, _gender, _age,_credit);
 			midInsertByID(list, s, selectID);
 			break;
 		case 3:
@@ -332,7 +345,9 @@ void stuInsertMenu(struct stuSqList* list)
 			scanf("%d", &_age);
 			printf("请输入某学生的姓名：");
 			scanf("%s", selectName);
-			s = createStu(_ID, _name, _gender, _age);
+			printf("请输入添加学生的学分：");
+			scanf("%lf", &_credit);
+			s = createStu(_ID, _name, _gender, _age,_credit);
 			midInsertByName(list, s, selectName);
 			break;
 		default:
@@ -570,7 +585,9 @@ void push(struct stuSqList* l, struct student s)
 	strcpy(l->parr[l->curSize].name, s.name);
 	strcpy(l->parr[l->curSize].gender, s.gender);
 	l->parr[l->curSize].age = s.age;
+	l->parr[l->curSize].credit = s.credit;
 	l->curSize++;
+	sort(l);//排序
 }
 
 //根据学号中间插
@@ -697,13 +714,13 @@ void midInsertByName(struct stuSqList* l, struct student s, char* name)
 void travel(struct stuSqList* list)
 {
 	system("cls");
-	printf("\t\t -------------全部学生信息--------------\n");
-	printf("\t\t| 学      号    姓    名   性别   年龄 |\n");
+	printf("\t\t ---------------全部学生信息-----------------\n");
+	printf("\t\t| 学      号    姓    名   性别   年龄  学分 |\n");
 	for (int i = 0; i < list->curSize; i++)
 	{
-		printf("\t\t| %10lld  %10s   %4s   %4d |\n", list->parr[i].ID, list->parr[i].name, list->parr[i].gender, list->parr[i].age);
+		printf("\t\t| %10lld  %10s   %4s   %4d  %.1lf  |\n", list->parr[i].ID, list->parr[i].name, list->parr[i].gender, list->parr[i].age, list->parr[i].credit);
 	}
-	printf("\t\t -----------------结束-----------------\n");
+	printf("\t\t -------------------结束--------------------\n");
 	system("pause");
 }
 
@@ -957,6 +974,26 @@ void modifyByName(struct stuSqList* l, char* name)
 	system("pause");
 }
 
+//进行升序排序
+void sort(struct stuSqList* l)
+{
+	struct student temp = { 0 };
+	for (int i = 0; i < l->curSize-1; i++)
+	{
+		for (int j = 0; j < l->curSize - i - 1; j++)
+		{
+			double one = l->parr[j].credit;
+			double two = l->parr[j + 1].credit;
+			if (one > two)
+			{
+				memcpy(&temp, &(l->parr[j + 1]), sizeof(struct student));
+				memcpy(&(l->parr[j + 1]), &(l->parr[j]), sizeof(struct student));
+				memcpy(&(l->parr[j]), &temp, sizeof(struct student));
+			}
+		}
+	}
+}
+
 //文件操作
 //退出系统的时候保存到本地文件 stuInfo.txt 中
 void saveToFile(struct stuSqList* l)
@@ -971,7 +1008,7 @@ void saveToFile(struct stuSqList* l)
 	//将表中的数据写入文件
 	for (int i = 0; i < l->curSize; i++)
 	{
-		fprintf(fp, "%lld %s %s %d\n", l->parr[i].ID, l->parr[i].name, l->parr[i].gender, l->parr[i].age);
+		fprintf(fp, "%lld %s %s %d %lf\n", l->parr[i].ID, l->parr[i].name, l->parr[i].gender, l->parr[i].age, l->parr[i].credit);
 	}
 	//最后记得关闭文件
 	fclose(fp);

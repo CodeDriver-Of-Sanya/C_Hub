@@ -1,0 +1,5 @@
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/CMakeFiles/12_MainWindow.dir
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/CMakeFiles/12_MainWindow_autogen_timestamp_deps.dir
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/CMakeFiles/12_MainWindow_autogen.dir

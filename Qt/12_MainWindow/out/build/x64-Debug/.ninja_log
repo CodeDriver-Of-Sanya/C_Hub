@@ -1,0 +1,8 @@
+# ninja log v5
+8	384	7265819416249775	12_MainWindow_autogen/timestamp	273094cf5c65fafa
+8	384	7265819416249775	12_MainWindow_autogen/mocs_compilation.cpp	273094cf5c65fafa
+8	384	7265819416249775	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/12_MainWindow_autogen/timestamp	273094cf5c65fafa
+8	384	7265819416249775	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/12_MainWindow/out/build/x64-Debug/12_MainWindow_autogen/mocs_compilation.cpp	273094cf5c65fafa
+385	455	7265819417446577	CMakeFiles/12_MainWindow.dir/12_MainWindow_autogen/mocs_compilation.cpp.obj	4e0acc9286cf3e77
+388	4633	7265819459175761	CMakeFiles/12_MainWindow.dir/main.cpp.obj	a08a3ba229ec7e4
+4636	5048	7265819463155140	12_MainWindow.exe	ae6b04aedb75b826

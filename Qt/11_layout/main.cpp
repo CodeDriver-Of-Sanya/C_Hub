@@ -9,6 +9,9 @@
 #include<qformlayout.h>
 #include<qcombobox.h>
 #include<qplaintextedit.h>
+#include<qstackedlayout.h>
+#include<qbuttongroup.h>
+#include<qsplitter.h>
 
 //去掉黑窗口
 #pragma comment(linker,"/subSystem:windows /entry:mainCRTStartup")
@@ -23,10 +26,11 @@ public:
 		//boxLayout1();
 		//gridLayout();
 		//formLayout();
-		stackedLayout();
+		//stackedLayout();
+		splitter();
 	}
 
-	void boxLayout()
+	void boxLayout(QWidget* parent)
 	{
 		//创建控件(设置布局时会自动设置父对象，不需要自己设置)
 		auto tipLab_username = new QLabel("用户名：");
@@ -49,7 +53,7 @@ public:
 		//一般 setxxx 就只能设置一个，addxxx就能设置多个
 		//所以现在可以弄个垂直布局包裹两个水平布局实现账号和密码的输入界面
 
-		auto vLay = new QVBoxLayout();
+		auto vLay = new QVBoxLayout(parent);
 		vLay->addLayout(hLay);
 		vLay->addLayout(hLay1);
 		setLayout(vLay);
@@ -85,7 +89,7 @@ public:
 		hlayout->addStretch();
 
 	}
-	void gridLayout() {
+	void gridLayout(QWidget* parent) {
 		auto profileLab = new QLabel;//登录图像
 		auto accountEdit = new QLineEdit;//账号输入框
 		auto passwordEdit = new QLineEdit;//密码输入框
@@ -106,7 +110,7 @@ public:
 		//复选框默认勾选
 		rememberPasswordChx->setChecked(true);
 
-		auto glayout = new QGridLayout(this);
+		auto glayout = new QGridLayout(parent);
 
 		//后面四个数字分辨是（第几行，第几列，占几行，占几列）
 		glayout->addWidget(profileLab, 0, 0, 3, 1);
@@ -150,10 +154,72 @@ public:
 		flayout->addRow("住址", provinceCmb);
 		flayout->addRow("详细地址", new QPlainTextEdit);
 	}
-	void stackedLayout() {
+	void stackedLayout() 
+	{
+		//用来管理多个按钮可以用 按钮组
+		auto btnGroup = new QButtonGroup(this);
+		btnGroup->addButton(new QPushButton("page1"),0);//默认下标从0开始排列，也可以手动调整
+		btnGroup->addButton(new QPushButton("page2"),1);
+		
+		auto hLayout = new QHBoxLayout;
+		hLayout->addWidget(btnGroup->button(0));
+		hLayout->addWidget(btnGroup->button(1));
+		
+		//这个布局是用来管理多个页面的
+		auto slayout = new QStackedLayout;
+		slayout->addWidget(createWidget(0));//0
+		slayout->addWidget(createWidget(1));//1
+		
+		auto vLayout = new QVBoxLayout;
+		vLayout->addLayout(hLayout);
+		vLayout->addLayout(slayout);
+		
+		setLayout(hLayout);
+		
+		//页面切换
+		//slayout->setCurrentIndex(1);
+		
+		//将按钮与页面联系起来
+		connect(btnGroup, &QButtonGroup::idClicked, [=](int id)
+			{
+				slayout->setCurrentIndex(id);
+			});
+
+	}
+	QWidget* createWidget(int id)
+	{
+		if (0 == id)
+		{
+			QWidget* page = new QWidget;
+			boxLayout(page);
+			return page;
+		}
+		else if (1 == id)
+		{
+			QWidget* page = new QWidget;
+			gridLayout(page);
+			return page;
+		}
+		return nullptr;
 
 	}
 	
+	void splitter()
+	{
+		//splitter本身就是一个窗口
+		auto sp = new QSplitter;
+		sp->addWidget(new QPlainTextEdit);//0
+		sp->addWidget(createWidget(1));//1
+
+		//设置不可折叠
+		sp->setCollapsible(1, false);
+
+		auto hlay = new QHBoxLayout;
+		hlay->addWidget(sp);
+
+		setLayout(hlay);
+	}
+
 private:
 	
 };
