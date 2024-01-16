@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/LoginRegister_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister",
+	"INCLUDE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/LoginRegister_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/down-arrow.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/close-hover.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/cai.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/check.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/dream.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/close.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/dunkai.png",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/style.css",
+		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource/uncheck.png"
+	],
+	"LOCK_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/LoginRegister_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/LoginRegister_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/Resource.qrc",
+	"VERBOSITY" : 0
+}
