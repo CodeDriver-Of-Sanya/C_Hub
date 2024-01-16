@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "LoginRegister",
+					"name" : "16_WindeployQt_GUI",
 					"targetIndexes" : 
 					[
 						0,
@@ -42,23 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "LoginRegister::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LoginRegister-Debug-d25758b810439f304a08.json",
-					"name" : "LoginRegister",
+					"id" : "16_WindeployQt_GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI-Debug-3b38e17941605d1b1169.json",
+					"name" : "16_WindeployQt_GUI",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "LoginRegister_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LoginRegister_autogen-Debug-20a83e49f231f8365cec.json",
-					"name" : "LoginRegister_autogen",
+					"id" : "16_WindeployQt_GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI_autogen-Debug-c00491f497456bbe23cf.json",
+					"name" : "16_WindeployQt_GUI_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "LoginRegister_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LoginRegister_autogen_timestamp_deps-Debug-cf5c1729e7c3794b1999.json",
-					"name" : "LoginRegister_autogen_timestamp_deps",
+					"id" : "16_WindeployQt_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI_autogen_timestamp_deps-Debug-4326f6045ff35f6503db.json",
+					"name" : "16_WindeployQt_GUI_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug",
-		"source" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister"
+		"build" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
+		"source" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI"
 	},
 	"version" : 
 	{

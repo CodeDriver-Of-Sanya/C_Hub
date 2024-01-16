@@ -1,0 +1,9 @@
+# ninja log v5
+14	166	7270991904801983	16_WindeployQt_GUI_autogen/timestamp	55b46a0f24741f7e
+14	166	7270991904801983	16_WindeployQt_GUI_autogen/mocs_compilation.cpp	55b46a0f24741f7e
+14	166	7270991904801983	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/timestamp	55b46a0f24741f7e
+874	9480	7270989440306765	CMakeFiles/16_WindeployQt_GUI.dir/main.cpp.obj	42c85755ea3e36b1
+5519	5791	7270991960501276	16_WindeployQt_GUI.exe	2b23eec8fbc79708
+14	166	7270991904801983	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/mocs_compilation.cpp	55b46a0f24741f7e
+175	5518	7270991958213725	CMakeFiles/16_WindeployQt_GUI.dir/WindeployQtUI.cpp.obj	a7f75f9bcc3ff3e
+871	9631	7270989441832678	CMakeFiles/16_WindeployQt_GUI.dir/16_WindeployQt_GUI_autogen/mocs_compilation.cpp.obj	4bcd9a7a3d8acf48

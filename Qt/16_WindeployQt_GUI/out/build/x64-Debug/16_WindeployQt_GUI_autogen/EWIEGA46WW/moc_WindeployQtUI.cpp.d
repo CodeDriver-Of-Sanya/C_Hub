@@ -1,4 +1,5 @@
-C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/LoginRegister_autogen/include/main.moc: C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/main.cpp \
+C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/EWIEGA46WW/moc_WindeployQtUI.cpp: C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/WindeployQtUI.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qanystringview.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qarraydata.h \
@@ -19,18 +20,13 @@ C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/L
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcontiguouscache.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcoreapplication.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcoreapplication_platform.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qdatastream.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qdebug.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qeventloop.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qglobal.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qhash.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qhashfunctions.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qiodevice.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qiterable.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qiterator.h \
@@ -44,7 +40,6 @@ C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/L
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qmetacontainer.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qmetatype.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qnamespace.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qnumeric.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qobject.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qobject_impl.h \
@@ -55,6 +50,7 @@ C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/L
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qrect.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qset.h \
@@ -78,7 +74,6 @@ C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/L
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qtextstream.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qtypeinfo.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtCore/qurl.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qvariant.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtCore/qvarlengtharray.h \
@@ -90,44 +85,35 @@ C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/L
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qfont.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qguiapplication.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qicon.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qimage.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpalette.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpen.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpicture.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpixmap.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qpolygon.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qregion.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qrgb.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qrgba64.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtextcursor.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtextdocument.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtextformat.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtextoption.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qtransform.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtGui/qvalidator.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/QApplication \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/QWidget \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qabstractbutton.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qapplication.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qcheckbox.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qabstractitemdelegate.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qabstractslider.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qcombobox.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qframe.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qlabel.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qlineedit.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qradiobutton.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qstackedwidget.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qslider.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qstyle.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qstyleoption.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qtabbar.h \
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qwidget.h \
-  C:/Users/Winter/Documents/GitHub/C_Hub/Qt/14_LoginRegister/LoginRegisterDlg.h
+  C:/Qt/6.2.4/msvc2019_64/include/QtWidgets/qwidget.h
