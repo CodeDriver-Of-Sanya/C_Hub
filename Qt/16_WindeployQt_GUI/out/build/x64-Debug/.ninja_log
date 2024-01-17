@@ -1,9 +1,12 @@
 # ninja log v5
-14	166	7270991904801983	16_WindeployQt_GUI_autogen/timestamp	55b46a0f24741f7e
-14	166	7270991904801983	16_WindeployQt_GUI_autogen/mocs_compilation.cpp	55b46a0f24741f7e
-14	166	7270991904801983	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/timestamp	55b46a0f24741f7e
-874	9480	7270989440306765	CMakeFiles/16_WindeployQt_GUI.dir/main.cpp.obj	42c85755ea3e36b1
-5519	5791	7270991960501276	16_WindeployQt_GUI.exe	2b23eec8fbc79708
-14	166	7270991904801983	C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/mocs_compilation.cpp	55b46a0f24741f7e
-175	5518	7270991958213725	CMakeFiles/16_WindeployQt_GUI.dir/WindeployQtUI.cpp.obj	a7f75f9bcc3ff3e
-871	9631	7270989441832678	CMakeFiles/16_WindeployQt_GUI.dir/16_WindeployQt_GUI_autogen/mocs_compilation.cpp.obj	4bcd9a7a3d8acf48
+6	321	7271254612758139	16_WindeployQt_GUI_autogen/timestamp	5255be87047c45f2
+6	321	7271254612758139	16_WindeployQt_GUI_autogen/mocs_compilation.cpp	5255be87047c45f2
+6	321	7271254612758139	C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/timestamp	5255be87047c45f2
+6	321	7271254612758139	C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/mocs_compilation.cpp	5255be87047c45f2
+321	469	7271254614399481	16_WindeployQt_GUI_autogen/EWIEGA46WW/qrc_Resource.cpp	102f568c755323bd
+321	469	7271254614399481	C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/EWIEGA46WW/qrc_Resource.cpp	102f568c755323bd
+492	719	7271254617293933	CMakeFiles/16_WindeployQt_GUI.dir/16_WindeployQt_GUI_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	2c2dea78fe07195a
+475	3036	7271254640404936	CMakeFiles/16_WindeployQt_GUI.dir/main.cpp.obj	305d8c9233cac534
+469	3047	7271254640532703	CMakeFiles/16_WindeployQt_GUI.dir/16_WindeployQt_GUI_autogen/mocs_compilation.cpp.obj	c2c8f7b67deed11f
+483	3287	7271254642962025	CMakeFiles/16_WindeployQt_GUI.dir/WindeployQtUI.cpp.obj	90fa7b695cba0da1
+3287	3638	7271254646316120	16_WindeployQt_GUI.exe	edb6b5bf4afac10e

@@ -1,27 +1,27 @@
 {
-	"BUILD_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI",
-	"CMAKE_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI",
-	"INCLUDE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/include",
+	"BUILD_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI",
+	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI",
+	"INCLUDE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/logo.ico",
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/style.css",
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-on-hover.png",
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-on.png",
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down.png",
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-hover.png"
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/style.css",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/logo.ico",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-hover.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-on.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource/images/drop-down-on-hover.png"
 	],
-	"LOCK_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/CMakeFiles/16_WindeployQt_GUI_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"LOCK_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/CMakeFiles/16_WindeployQt_GUI_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "Resource" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_Resource.cpp",
-	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/msvc2019_64/./bin/rcc.exe",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.2/msvc2019_64/./bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/CMakeFiles/16_WindeployQt_GUI_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
-	"SOURCE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/Resource.qrc",
+	"SETTINGS_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/CMakeFiles/16_WindeployQt_GUI_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/Resource.qrc",
 	"VERBOSITY" : 0
 }

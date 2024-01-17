@@ -19,23 +19,23 @@
 			"include",
 			"find_package",
 			"find_dependency",
-			"_qt_internal_find_dependencies",
+			"_qt_internal_find_qt_dependencies",
 			"add_compile_options",
 			"include_directories"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"C:/Qt/6.2.4/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -67,7 +67,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 209,
+				"line" : 157,
 				"parent" : 4
 			},
 			{
@@ -77,7 +77,7 @@
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 6
 			},
 			{
@@ -87,7 +87,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 56,
+				"line" : 61,
 				"parent" : 8
 			},
 			{
@@ -103,13 +103,13 @@
 			{
 				"command" : 6,
 				"file" : 8,
-				"line" : 96,
+				"line" : 39,
 				"parent" : 11
 			},
 			{
 				"command" : 5,
 				"file" : 7,
-				"line" : 14,
+				"line" : 111,
 				"parent" : 12
 			},
 			{
@@ -125,7 +125,7 @@
 			{
 				"command" : 3,
 				"file" : 5,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 15
 			},
 			{
@@ -135,13 +135,13 @@
 			{
 				"command" : 2,
 				"file" : 4,
-				"line" : 56,
+				"line" : 61,
 				"parent" : 17
 			},
 			{
 				"command" : 5,
 				"file" : 7,
-				"line" : 14,
+				"line" : 111,
 				"parent" : 12
 			},
 			{
@@ -157,7 +157,7 @@
 			{
 				"command" : 3,
 				"file" : 10,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 21
 			},
 			{
@@ -167,7 +167,7 @@
 			{
 				"command" : 2,
 				"file" : 9,
-				"line" : 56,
+				"line" : 61,
 				"parent" : 23
 			},
 			{
@@ -252,36 +252,32 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/include"
+					"path" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug/16_WindeployQt_GUI_autogen/include"
 				},
 				{
 					"backtrace" : 26,
+					"isSystem" : true,
 					"path" : "C:/Qt/6.5.2/msvc2019_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.2.4/msvc2019_64/include/QtWidgets"
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtWidgets"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.2.4/msvc2019_64/include"
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.2.4/msvc2019_64/include/QtCore"
+					"path" : "C:/Qt/6.5.2/msvc2019_64/mkspecs/win32-msvc"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.2.4/msvc2019_64/mkspecs/win32-msvc"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "C:/Qt/6.2.4/msvc2019_64/include/QtGui"
+					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -306,11 +302,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "16_WindeployQt_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "16_WindeployQt_GUI_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "16_WindeployQt_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "16_WindeployQt_GUI::@6890427a1f51a3e7e1df",
@@ -328,17 +324,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.2.4\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Qt\\6.2.4\\msvc2019_64\\lib\\Qt6Guid.lib",
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Qt\\6.2.4\\msvc2019_64\\lib\\Qt6Cored.lib",
+				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Cored.lib",
 				"role" : "libraries"
 			},
 			{
@@ -364,6 +360,11 @@
 			{
 				"backtrace" : 24,
 				"fragment" : "dxguid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "dcomp.lib",
 				"role" : "libraries"
 			},
 			{

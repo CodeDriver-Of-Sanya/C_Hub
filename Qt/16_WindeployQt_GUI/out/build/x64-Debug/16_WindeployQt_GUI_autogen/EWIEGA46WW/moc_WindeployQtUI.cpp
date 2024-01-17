@@ -1,45 +1,66 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'WindeployQtUI.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.2.4)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.5.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include <memory>
 #include "../../../../../WindeployQtUI.h"
-#include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
+
+#if __has_include(<QtCore/qtmochelpers.h>)
+#include <QtCore/qtmochelpers.h>
+#else
+QT_BEGIN_MOC_NAMESPACE
+#endif
+
+
+#include <memory>
+
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'WindeployQtUI.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.2.4. It"
+#error "This file was generated using the moc from 6.5.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
-QT_BEGIN_MOC_NAMESPACE
+#ifndef Q_CONSTINIT
+#define Q_CONSTINIT
+#endif
+
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_WindeployQtUI_t {
-    const uint offsetsAndSize[2];
+QT_WARNING_DISABLE_GCC("-Wuseless-cast")
+namespace {
+
+#ifdef QT_MOC_HAS_STRINGDATA
+struct qt_meta_stringdata_CLASSWindeployQtUIENDCLASS_t {};
+static constexpr auto qt_meta_stringdata_CLASSWindeployQtUIENDCLASS = QtMocHelpers::stringData(
+    "WindeployQtUI"
+);
+#else  // !QT_MOC_HAS_STRING_DATA
+struct qt_meta_stringdata_CLASSWindeployQtUIENDCLASS_t {
+    uint offsetsAndSizes[2];
     char stringdata0[14];
 };
 #define QT_MOC_LITERAL(ofs, len) \
-    uint(offsetof(qt_meta_stringdata_WindeployQtUI_t, stringdata0) + ofs), len 
-static const qt_meta_stringdata_WindeployQtUI_t qt_meta_stringdata_WindeployQtUI = {
+    uint(sizeof(qt_meta_stringdata_CLASSWindeployQtUIENDCLASS_t::offsetsAndSizes) + ofs), len 
+Q_CONSTINIT static const qt_meta_stringdata_CLASSWindeployQtUIENDCLASS_t qt_meta_stringdata_CLASSWindeployQtUIENDCLASS = {
     {
-QT_MOC_LITERAL(0, 13) // "WindeployQtUI"
-
+        QT_MOC_LITERAL(0, 13)   // "WindeployQtUI"
     },
     "WindeployQtUI"
 };
 #undef QT_MOC_LITERAL
+#endif // !QT_MOC_HAS_STRING_DATA
+} // unnamed namespace
 
-static const uint qt_meta_data_WindeployQtUI[] = {
+Q_CONSTINIT static const uint qt_meta_data_CLASSWindeployQtUIENDCLASS[] = {
 
  // content:
-      10,       // revision
+      11,       // revision
        0,       // classname
        0,    0, // classinfo
        0,    0, // methods
@@ -52,6 +73,19 @@ static const uint qt_meta_data_WindeployQtUI[] = {
        0        // eod
 };
 
+Q_CONSTINIT const QMetaObject WindeployQtUI::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_CLASSWindeployQtUIENDCLASS.offsetsAndSizes,
+    qt_meta_data_CLASSWindeployQtUIENDCLASS,
+    qt_static_metacall,
+    nullptr,
+    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSWindeployQtUIENDCLASS_t,
+        // Q_OBJECT / Q_GADGET
+        QtPrivate::TypeAndForceComplete<WindeployQtUI, std::true_type>
+    >,
+    nullptr
+} };
+
 void WindeployQtUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     (void)_o;
@@ -59,22 +93,6 @@ void WindeployQtUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     (void)_c;
     (void)_a;
 }
-
-const QMetaObject WindeployQtUI::staticMetaObject = { {
-    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_WindeployQtUI.offsetsAndSize,
-    qt_meta_data_WindeployQtUI,
-    qt_static_metacall,
-    nullptr,
-qt_incomplete_metaTypeArray<qt_meta_stringdata_WindeployQtUI_t
-, QtPrivate::TypeAndForceComplete<WindeployQtUI, std::true_type>
-
-
-
->,
-    nullptr
-} };
-
 
 const QMetaObject *WindeployQtUI::metaObject() const
 {
@@ -84,7 +102,7 @@ const QMetaObject *WindeployQtUI::metaObject() const
 void *WindeployQtUI::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_WindeployQtUI.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_CLASSWindeployQtUIENDCLASS.stringdata0))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
@@ -95,4 +113,3 @@ int WindeployQtUI::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     return _id;
 }
 QT_WARNING_POP
-QT_END_MOC_NAMESPACE
