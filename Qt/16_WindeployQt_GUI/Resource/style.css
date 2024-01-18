@@ -1,0 +1,38 @@
+/*通用的样式 base*/
+*{
+    
+}
+QComboBox, QPushButton {
+    border: 1px solid groove;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 12pt;
+    height: 35px;
+}
+
+QComboBox:hover {
+    border: 2px solid black;
+}
+QComboBox:drop-down {
+    image: url(":/Resource/images/drop-down.png");
+}
+QComboBox:drop-down:hover {
+    image: url(":/Resource/images/drop-down-hover.png");
+}
+QComboBox:drop-down:checked {
+    image: url(":/Resource/images/drop-down-on.png");
+}
+QComboBox:drop-down:checked:hover {
+    image: url(":/Resource/images/drop-down-on-hover.png");
+}
+
+QPushButton:hover {
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+/*特定的样式*/
+QPushButton#destExe {
+    font: italic 40px;
+    color: gray;
+}

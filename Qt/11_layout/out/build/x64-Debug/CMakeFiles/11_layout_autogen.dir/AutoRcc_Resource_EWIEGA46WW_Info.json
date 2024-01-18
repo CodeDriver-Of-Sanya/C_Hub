@@ -1,22 +1,22 @@
 {
-	"BUILD_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout",
-	"CMAKE_SOURCE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout",
-	"INCLUDE_DIR" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/include",
+	"BUILD_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout",
+	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout",
+	"INCLUDE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/11_layout_autogen/include",
 	"INPUTS" : 
 	[
-		"C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/Resource/zay.png"
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/Resource/zay.png"
 	],
-	"LOCK_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug/CMakeFiles/11_layout_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"LOCK_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/CMakeFiles/11_layout_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "Resource" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_Resource.cpp",
-	"RCC_EXECUTABLE" : "C:/Qt/6.2.4/msvc2019_64/./bin/rcc.exe",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.2/msvc2019_64/./bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/out/build/x64-Debug/CMakeFiles/11_layout_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
-	"SOURCE" : "C:/Users/Winter/Documents/GitHub/C_Hub/Qt/11_layout/Resource.qrc",
+	"SETTINGS_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/out/build/x64-Debug/CMakeFiles/11_layout_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/11_layout/Resource.qrc",
 	"VERBOSITY" : 0
 }

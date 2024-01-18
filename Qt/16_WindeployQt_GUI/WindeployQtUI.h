@@ -1,6 +1,7 @@
 ﻿#ifndef _WINDEPLOYQTUI_H_
 #define _WINDEPLOYQTUI_H_
 
+#include"QtEnvSearch.h"
 #include<qwidget.h>
 #include<qcombobox.h>
 
@@ -14,6 +15,7 @@ public:
 private:
 	QComboBox* m_QtVersomListCbx{};
 	QComboBox* m_QtKidsListCbx{};
+	QtEnvSearch m_qtEnv{};
 };
 
 #endif // !_WINDEPLOYQTUI_H_

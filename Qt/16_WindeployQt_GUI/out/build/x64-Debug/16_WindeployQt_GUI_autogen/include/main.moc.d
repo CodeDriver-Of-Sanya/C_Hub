@@ -162,4 +162,5 @@ C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debu
   C:/Qt/6.5.2/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.5.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.5.2/msvc2019_64/include/QtWidgets/qwidget.h \
+  C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/QtEnvSearch.h \
   C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/WindeployQtUI.h

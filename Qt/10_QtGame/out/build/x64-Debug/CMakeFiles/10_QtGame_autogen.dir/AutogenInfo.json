@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame",
+	"BUILD_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/zmq/coding/Qt/10_QtGame/CMakeLists.txt",
-		"C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeSystem.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/CMakeLists.txt",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeSystem.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeCCompiler.cmake",
-		"C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeCXXCompiler.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeCCompiler.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeCXXCompiler.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake",
-		"C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeRCCompiler.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CMakeRCCompiler.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
 		"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake",
@@ -245,65 +245,65 @@
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-debug.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
-		"C:/Users/zmq/coding/Qt/10_QtGame/Resource.qrc"
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Resource.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame",
-	"DEP_FILE" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame",
+	"DEP_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "10_QtGame_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/Bullet.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Bullet.h",
 			"MU",
 			"EWIEGA46WW/moc_Bullet.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/Entity.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Entity.h",
 			"MU",
 			"EWIEGA46WW/moc_Entity.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/EntityManager.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/EntityManager.h",
 			"MU",
 			"EWIEGA46WW/moc_EntityManager.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/Global.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Global.h",
 			"MU",
 			"EWIEGA46WW/moc_Global.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/Map.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Map.h",
 			"MU",
 			"EWIEGA46WW/moc_Map.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/PlayerPlane.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/PlayerPlane.h",
 			"MU",
 			"EWIEGA46WW/moc_PlayerPlane.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/QGame.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/QGame.h",
 			"MU",
 			"EWIEGA46WW/moc_QGame.cpp",
 			null
 		],
 		[
-			"C:/Users/zmq/coding/Qt/10_QtGame/Sprite.h",
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Sprite.h",
 			"MU",
 			"EWIEGA46WW/moc_Sprite.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/10_QtGame_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -347,20 +347,44 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 12,
-	"PARSE_CACHE_FILE" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/10_QtGame_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/10_QtGame_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.5.2/msvc2019_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.5.2/msvc2019_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 5,
-	"SETTINGS_FILE" : "C:/Users/zmq/coding/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/10_QtGame_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/out/build/x64-Debug/CMakeFiles/10_QtGame_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/Bullet.cpp", "MU", null ],
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/Map.cpp", "MU", null ],
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/PlayerPlane.cpp", "MU", null ],
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/QGame.cpp", "MU", null ],
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/Sprite.cpp", "MU", null ],
-		[ "C:/Users/zmq/coding/Qt/10_QtGame/main.cpp", "MU", null ]
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Bullet.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Map.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/PlayerPlane.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/QGame.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/Sprite.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/10_QtGame/main.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
