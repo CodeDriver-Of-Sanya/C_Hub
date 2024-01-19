@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/button/setting.png</file>
+        <file>Resource/button/shut.png</file>
+        <file>Resource/wallpaper/1.jpg</file>
+        <file>Resource/wallpaper/2.jpg</file>
+        <file>Resource/wallpaper/3.jpeg</file>
+        <file>Resource/desktopRole/littleBoy/0.png</file>
+        <file>Resource/desktopRole/littleBoy/1.png</file>
+        <file>Resource/desktopRole/littleBoy/2.png</file>
+        <file>Resource/desktopRole/littleBoy/3.png</file>
+        <file>Resource/desktopRole/littleBoy/4.png</file>
+        <file>Resource/desktopRole/littleBoy/5.png</file>
+        <file>Resource/desktopRole/summerGril/0.png</file>
+        <file>Resource/desktopRole/summerGril/1.png</file>
+        <file>Resource/desktopRole/summerGril/2.png</file>
+        <file>Resource/desktopRole/summerGril/3.png</file>
+        <file>Resource/desktopRole/summerGril/4.png</file>
+        <file>Resource/desktopRole/summerGril/5.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/0.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/1.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/2.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/3.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/4.png</file>
+        <file>Resource/desktopRole/blackGril/action1-happy/5.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/0.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/1.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/2.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/3.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/4.png</file>
+        <file>Resource/desktopRole/blackGril/action2-sad/5.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/0.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/1.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/2.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/3.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/4.png</file>
+        <file>Resource/desktopRole/blackGril/action3-naughty/5.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/0.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/1.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/2.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/3.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/4.png</file>
+        <file>Resource/desktopRole/blackGril/action4-shy/5.png</file>
+    </qresource>
+</RCC>

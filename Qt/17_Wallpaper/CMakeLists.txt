@@ -33,8 +33,9 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 #配置资源文件（将源代码添加到此项目的可执行文件）
 set(PROJECT_SOURCES 
 	main.cpp
+	"Resource.qrc"
 )
-add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
+add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} "MainWindow.h" "MainWindow.cpp")
 
 #指定 exe 等目标 生成位置
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/bin)

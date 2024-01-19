@@ -244,12 +244,21 @@
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-debug.cmake",
 		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
-		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake"
+		"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/Resource.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper",
 	"DEP_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "17_Wallpaper_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/mocs_compilation.cpp",
@@ -304,6 +313,11 @@
 	"SETTINGS_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/CMakeFiles/17_Wallpaper_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/MainWindow.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/main.cpp",
 			"MU",
