@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/17_Wallpaper
+# Install script for directory: C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/17_Wallpaper/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

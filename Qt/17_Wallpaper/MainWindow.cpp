@@ -34,6 +34,9 @@ void MainWindow::initUI()
 
 	m_settingsBtn->move(35, 0);
 
+	//初始化设置窗口
+	m_settingsDlg = new SettingsDlg(this);
+
 	QFile style_btn(":/Resource/button/style.css");
 	if (!style_btn.open(QFile::ReadOnly))
 	{
@@ -41,6 +44,16 @@ void MainWindow::initUI()
 		return;
 	}
 	setStyleSheet(style_btn.readAll());
+
+	//关联事件
+	connect(m_closeBtn, &QPushButton::clicked, this, &QWidget::close);
+	connect(m_settingsBtn, &QPushButton::clicked, m_settingsDlg, &QDialog::exec);
+	//根据设置来更改展示模型的样式
+	connect(m_settingsDlg, &SettingsDlg::modelChanged, [=](int id)
+		{
+			m_modelId = id;
+		});
+	
 
 }
 

@@ -1,5 +1,6 @@
 ﻿#ifndef _MAINWINDOW_H_
 #define _MAINWINDOW_H_
+#include"SettingsDlg.h"
 #include <qwidget.h>
 #include<qpushbutton.h>
 
@@ -20,6 +21,8 @@ private:
 
 	QPushButton* m_closeBtn{};
 	QPushButton* m_settingsBtn{};
+
+	SettingsDlg* m_settingsDlg{};
 };
 
 #endif // !_MAINWINDOW_H_
