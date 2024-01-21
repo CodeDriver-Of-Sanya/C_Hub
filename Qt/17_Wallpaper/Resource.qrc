@@ -41,5 +41,6 @@
         <file>Resource/desktopRole/blackGril/action4-shy/3.png</file>
         <file>Resource/desktopRole/blackGril/action4-shy/4.png</file>
         <file>Resource/desktopRole/blackGril/action4-shy/5.png</file>
+        <file>Resource/button/style.css</file>
     </qresource>
 </RCC>

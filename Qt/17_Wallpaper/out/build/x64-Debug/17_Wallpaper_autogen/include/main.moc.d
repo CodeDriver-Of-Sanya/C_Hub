@@ -116,7 +116,9 @@ C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wa
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/QApplication \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/QWidget \
+  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qapplication.h \
+  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \

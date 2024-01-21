@@ -4,7 +4,7 @@
 
 
 //去掉黑窗口
-#pragma comment(linker,"/subSystem:windows /entry:mainCRTStartup")
+//#pragma comment(linker,"/subSystem:windows /entry:mainCRTStartup")
 
 int main(int argc, char* argv[]) {
 
