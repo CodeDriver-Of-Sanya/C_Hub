@@ -129,7 +129,7 @@ QStackedWidget#stackedWidget
     </rect>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>3</number>
    </property>
    <widget class="QWidget" name="model2Page3">
     <widget class="QLabel" name="label_2">

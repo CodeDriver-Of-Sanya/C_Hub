@@ -181,7 +181,7 @@ build 17_Wallpaper_autogen\EWIEGA46WW\qrc_Resource.cpp | ${cmake_ninja_workdir}1
 #############################################
 # Phony custom command for CMakeFiles\17_Wallpaper_autogen_timestamp_deps
 
-build CMakeFiles\17_Wallpaper_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\17_Wallpaper_autogen_timestamp_deps: phony C$:\Qt\6.5.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.2\msvc2019_64\.\bin\uic.exe C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Widgetsd.lib
+build CMakeFiles\17_Wallpaper_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\17_Wallpaper_autogen_timestamp_deps: phony C$:\Qt\6.5.2\msvc2019_64\.\bin\moc.exe C$:\Qt\6.5.2\msvc2019_64\lib\Qt6Widgetsd.lib C$:\Qt\6.5.2\msvc2019_64\.\bin\uic.exe
 
 
 #############################################

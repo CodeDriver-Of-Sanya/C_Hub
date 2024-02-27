@@ -1,0 +1,23 @@
+# ninja log v5
+6	112	7284075280736136	UiTools/UiTools_autogen/timestamp	a5112d09e934ada6
+6	112	7284075280736136	UiTools/UiTools_autogen/mocs_compilation.cpp	a5112d09e934ada6
+6	112	7284075280736136	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/UiTools_autogen/timestamp	a5112d09e934ada6
+6	112	7284075280736136	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/UiTools_autogen/mocs_compilation.cpp	a5112d09e934ada6
+112	149	7284075281422920	UiTools/CMakeFiles/UiTools.dir/UiTools_autogen/mocs_compilation.cpp.obj	29f3b1bb9df8e89c
+118	1797	7284075297850385	UiTools/CMakeFiles/UiTools.dir/EventFilterObject.cpp.obj	e0fdad9ab48e80ae
+1798	1838	7284075298283521	UiTools/UiTools.lib	bbcf29988e41fe06
+1838	1942	7284075299034717	LoginRegister/LoginRegister_autogen/timestamp	e341c44703570b8
+1838	1942	7284075299034717	LoginRegister/LoginRegister_autogen/mocs_compilation.cpp	e341c44703570b8
+1838	1942	7284075299034717	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/LoginRegister_autogen/timestamp	e341c44703570b8
+1838	1942	7284075299034717	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/LoginRegister_autogen/mocs_compilation.cpp	e341c44703570b8
+1942	2063	7284075300297863	LoginRegister/LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp	f03af58c6a7e8ab8
+1942	2063	7284075300297863	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp	f03af58c6a7e8ab8
+2064	2102	7284075300944483	LoginRegister/CMakeFiles/LoginRegister.dir/LoginRegister_autogen/mocs_compilation.cpp.obj	f943eb0c302c98ba
+2075	2274	7284075302652697	LoginRegister/CMakeFiles/LoginRegister.dir/LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	f0dbba3e99859f07
+2069	4039	7284075320265837	LoginRegister/CMakeFiles/LoginRegister.dir/LoginRegisterDlg.cpp.obj	db93932972729a16
+4039	4091	7284075320712154	LoginRegister/LoginRegister.lib	ed28be2f8f80af48
+4091	4207	7284075321581420	19-2_ModelView_BookManagerSystem_autogen/timestamp	f1a56f8971e9386b
+4091	4207	7284075321581420	19-2_ModelView_BookManagerSystem_autogen/mocs_compilation.cpp	f1a56f8971e9386b
+4091	4207	7284075321581420	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/19-2_ModelView_BookManagerSystem_autogen/timestamp	f1a56f8971e9386b
+4091	4207	7284075321581420	C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/19-2_ModelView_BookManagerSystem_autogen/mocs_compilation.cpp	f1a56f8971e9386b
+4207	4243	7284075322362520	CMakeFiles/19-2_ModelView_BookManagerSystem.dir/19-2_ModelView_BookManagerSystem_autogen/mocs_compilation.cpp.obj	5ced18528949d7f2

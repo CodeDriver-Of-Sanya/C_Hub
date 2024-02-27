@@ -1,0 +1,9 @@
+# ninja log v5
+8	366	7305568560905308	23_WebSocket_FileTransfer_autogen/timestamp	14994adff08fcade
+367	426	7305568562170853	CMakeFiles/23_WebSocket_FileTransfer.dir/23_WebSocket_FileTransfer_autogen/mocs_compilation.cpp.obj	454c5bdd047ce1d0
+8	366	7305568560905308	23_WebSocket_FileTransfer_autogen/mocs_compilation.cpp	14994adff08fcade
+8	366	7305568560905308	C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/mocs_compilation.cpp	14994adff08fcade
+8	366	7305568560905308	C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/timestamp	14994adff08fcade
+3235	3675	7305568594359169	23_WebSocket_FileTransfer.exe	7b21e21ffcd7edab
+373	2999	7305568587886182	CMakeFiles/23_WebSocket_FileTransfer.dir/main.cpp.obj	f1990b09e5614259
+381	3235	7305568590189525	CMakeFiles/23_WebSocket_FileTransfer.dir/RemoteFileDlg.cpp.obj	10d3d3a38b8d60fd

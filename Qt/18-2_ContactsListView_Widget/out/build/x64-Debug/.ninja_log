@@ -1,0 +1,16 @@
+# ninja log v5
+5	268	7283126887593514	18-2_ContactsListView_Widget_autogen/timestamp	9f810a5ed09c5ab2
+5	268	7283126887593514	18-2_ContactsListView_Widget_autogen/mocs_compilation.cpp	9f810a5ed09c5ab2
+5	268	7283126887593514	C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/timestamp	9f810a5ed09c5ab2
+5	268	7283126887593514	C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/mocs_compilation.cpp	9f810a5ed09c5ab2
+269	375	7283126889004941	18-2_ContactsListView_Widget_autogen/EWIEGA46WW/qrc_Resource.cpp	8c4e8394e3e38295
+269	375	7283126889004941	C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/EWIEGA46WW/qrc_Resource.cpp	8c4e8394e3e38295
+375	421	7283126889785304	CMakeFiles/18-2_ContactsListView_Widget.dir/18-2_ContactsListView_Widget_autogen/mocs_compilation.cpp.obj	b029b5f1fce2c7a6
+388	424	7283126889785304	CMakeFiles/18-2_ContactsListView_Widget.dir/Contact.cpp.obj	d5de2ff59c0e1c7d
+394	437	7283126889941525	CMakeFiles/18-2_ContactsListView_Widget.dir/18-2_ContactsListView_Widget_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	3dd3085fedc6879f
+382	2264	7283126908163401	CMakeFiles/18-2_ContactsListView_Widget.dir/main.cpp.obj	311c0e3a1cd8a888
+8	275	7283127307504467	18-2_ContactsListView_Widget_autogen/timestamp	9f810a5ed09c5ab2
+8	275	7283127307504467	18-2_ContactsListView_Widget_autogen/mocs_compilation.cpp	9f810a5ed09c5ab2
+8	275	7283127307504467	C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/timestamp	9f810a5ed09c5ab2
+8	275	7283127307504467	C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/mocs_compilation.cpp	9f810a5ed09c5ab2
+282	2236	7283127327136635	CMakeFiles/18-2_ContactsListView_Widget.dir/main.cpp.obj	311c0e3a1cd8a888

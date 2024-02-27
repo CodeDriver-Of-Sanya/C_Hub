@@ -1,0 +1,5 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/21_thread_demoPaint/out/build/x64-Debug/CMakeFiles/21_thread_demoPaint.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/21_thread_demoPaint/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/21_thread_demoPaint/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/21_thread_demoPaint/out/build/x64-Debug/CMakeFiles/21_thread_demoPaint_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/21_thread_demoPaint/out/build/x64-Debug/CMakeFiles/21_thread_demoPaint_autogen.dir

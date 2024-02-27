@@ -1,0 +1,192 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "UiTools",
+					"jsonFile" : "directory-UiTools-Debug-a928549fefbb02861cec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "UiTools",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "LoginRegister",
+					"jsonFile" : "directory-LoginRegister-Debug-804766b1efe352173f1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "LoginRegister",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "19-2_ModelView_BookManagerSystem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "UiTools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "LoginRegister",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "19-2_ModelView_BookManagerSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-19-2_ModelView_BookManagerSystem-Debug-66b3a89e8b3f38879159.json",
+					"name" : "19-2_ModelView_BookManagerSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "19-2_ModelView_BookManagerSystem_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-19-2_ModelView_BookManagerSystem_autogen-Debug-311a503ca7d54ac3f6f9.json",
+					"name" : "19-2_ModelView_BookManagerSystem_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "19-2_ModelView_BookManagerSystem_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-19-2_ModelView_BookManagerSystem_autogen_timestamp_deps-Debug-b0a5100659e33f6bb39f.json",
+					"name" : "19-2_ModelView_BookManagerSystem_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LoginRegister::@b0b78ace9e4798bb480e",
+					"jsonFile" : "target-LoginRegister-Debug-807cb06fe2889afac628.json",
+					"name" : "LoginRegister",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LoginRegister_autogen::@b0b78ace9e4798bb480e",
+					"jsonFile" : "target-LoginRegister_autogen-Debug-0b608fa8791de203dec4.json",
+					"name" : "LoginRegister_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "LoginRegister_autogen_timestamp_deps::@b0b78ace9e4798bb480e",
+					"jsonFile" : "target-LoginRegister_autogen_timestamp_deps-Debug-518c6c05fa3182e71f5b.json",
+					"name" : "LoginRegister_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UiTools::@edd64a033d1a69cc1b44",
+					"jsonFile" : "target-UiTools-Debug-844750ae71b6443d7395.json",
+					"name" : "UiTools",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UiTools_autogen::@edd64a033d1a69cc1b44",
+					"jsonFile" : "target-UiTools_autogen-Debug-89b9029a523eeacac77c.json",
+					"name" : "UiTools_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "UiTools_autogen_timestamp_deps::@edd64a033d1a69cc1b44",
+					"jsonFile" : "target-UiTools_autogen_timestamp_deps-Debug-0e3b487b3d068eeb47c8.json",
+					"name" : "UiTools_autogen_timestamp_deps",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

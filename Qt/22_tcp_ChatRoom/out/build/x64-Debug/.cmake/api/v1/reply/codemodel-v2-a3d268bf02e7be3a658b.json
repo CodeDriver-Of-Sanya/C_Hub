@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ChatRoom-Server",
+					"jsonFile" : "directory-ChatRoom-Server-Debug-a4f88bfc03fab9ac9cd9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ChatRoom-Server",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ChatRoom-Client",
+					"jsonFile" : "directory-ChatRoom-Client-Debug-8b3e040f0f44af0a8d2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "ChatRoom-Client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "22_tcp_ChatRoom"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ChatRoom-Server",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ChatRoom-Client",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ChatRoom-Client::@191ae0a079891e4a5263",
+					"jsonFile" : "target-ChatRoom-Client-Debug-9004a942d1f5d2ffbf99.json",
+					"name" : "ChatRoom-Client",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ChatRoom-Client_autogen::@191ae0a079891e4a5263",
+					"jsonFile" : "target-ChatRoom-Client_autogen-Debug-78762ce7307f93028d49.json",
+					"name" : "ChatRoom-Client_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ChatRoom-Client_autogen_timestamp_deps::@191ae0a079891e4a5263",
+					"jsonFile" : "target-ChatRoom-Client_autogen_timestamp_deps-Debug-e1fb9082ea2698422dad.json",
+					"name" : "ChatRoom-Client_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ChatRoom-Server::@a3bd54c386bab5bef3ef",
+					"jsonFile" : "target-ChatRoom-Server-Debug-59d878df5ce36102d978.json",
+					"name" : "ChatRoom-Server",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

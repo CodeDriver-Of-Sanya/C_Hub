@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/images/defaultProfile.png</file>
+        <file>Resource/images/quit.png</file>
+        <file>Resource/images/quit-hover.png</file>
+        <file>Resource/images/svip.png</file>
+        <file>Resource/images/vip.png</file>
+    </qresource>
+</RCC>

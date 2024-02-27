@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget",
+	"CMAKE_SOURCE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget",
+	"INCLUDE_DIR" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/18-2_ContactsListView_Widget_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource/images/svip.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource/images/quit-hover.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource/images/defaultProfile.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource/images/quit.png",
+		"C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource/images/vip.png"
+	],
+	"LOCK_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/18-2_ContactsListView_Widget_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.2/msvc2019_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/18-2_ContactsListView_Widget_autogen.dir/AutoRcc_Resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/Resource.qrc",
+	"VERBOSITY" : 0
+}
