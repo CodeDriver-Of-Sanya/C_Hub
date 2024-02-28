@@ -1,5 +1,5 @@
-C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer.dir
-C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer_autogen_timestamp_deps.dir
-C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer_autogen.dir
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer.dir
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer_autogen_timestamp_deps.dir
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/23_WebSocket_FileTransfer_autogen.dir

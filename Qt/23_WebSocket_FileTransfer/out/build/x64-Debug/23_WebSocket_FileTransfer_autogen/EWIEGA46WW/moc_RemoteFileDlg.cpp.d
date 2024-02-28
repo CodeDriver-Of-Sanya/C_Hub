@@ -1,4 +1,4 @@
-C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/include/main.moc: C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/main.cpp \
+C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/EWIEGA46WW/moc_RemoteFileDlg.cpp: C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/RemoteFileDlg.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qanystringview.h \
@@ -22,14 +22,10 @@ C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x6
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcontiguouscache.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcoreapplication.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcoreapplication_platform.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qdatastream.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qdatetime.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qdebug.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qdir.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qeventloop.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qfile.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qfiledevice.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qfileinfo.h \
@@ -53,7 +49,6 @@ C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x6
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmetacontainer.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmetatype.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qnamespace.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qnumeric.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qobject.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qobject_impl.h \
@@ -102,11 +97,8 @@ C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x6
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfont.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qguiapplication.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qicon.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qimage.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpalette.h \
@@ -123,11 +115,8 @@ C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x6
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qtransform.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/QApplication \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qwidget.h \
-  C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/RemoteFileDlg.h
+  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qwidget.h

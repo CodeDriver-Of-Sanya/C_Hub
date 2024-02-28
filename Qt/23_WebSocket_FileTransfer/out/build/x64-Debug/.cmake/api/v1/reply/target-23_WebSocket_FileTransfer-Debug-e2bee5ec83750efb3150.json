@@ -26,16 +26,16 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -109,7 +109,7 @@
 			{
 				"command" : 5,
 				"file" : 7,
-				"line" : 111,
+				"line" : 108,
 				"parent" : 12
 			},
 			{
@@ -141,7 +141,7 @@
 			{
 				"command" : 5,
 				"file" : 7,
-				"line" : 111,
+				"line" : 108,
 				"parent" : 12
 			},
 			{
@@ -252,32 +252,36 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/include"
+					"path" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/23_WebSocket_FileTransfer_autogen/include"
 				},
 				{
 					"backtrace" : 26,
-					"isSystem" : true,
 					"path" : "C:/Qt/6.5.2/msvc2019_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtWidgets"
+					"path" : "C:/Qt/6.4.2/msvc2019_64/include/QtWidgets"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtCore"
+					"path" : "C:/Qt/6.4.2/msvc2019_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.2/msvc2019_64/mkspecs/win32-msvc"
+					"path" : "C:/Qt/6.4.2/msvc2019_64/include/QtCore"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.5.2/msvc2019_64/include/QtGui"
+					"path" : "C:/Qt/6.4.2/msvc2019_64/mkspecs/win32-msvc"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.4.2/msvc2019_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -323,17 +327,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
+				"fragment" : "C:\\Qt\\6.4.2\\msvc2019_64\\lib\\Qt6Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Guid.lib",
+				"fragment" : "C:\\Qt\\6.4.2\\msvc2019_64\\lib\\Qt6Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Qt\\6.5.2\\msvc2019_64\\lib\\Qt6Cored.lib",
+				"fragment" : "C:\\Qt\\6.4.2\\msvc2019_64\\lib\\Qt6Cored.lib",
 				"role" : "libraries"
 			},
 			{
@@ -359,11 +363,6 @@
 			{
 				"backtrace" : 24,
 				"fragment" : "dxguid.lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 24,
-				"fragment" : "dcomp.lib",
 				"role" : "libraries"
 			},
 			{

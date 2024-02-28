@@ -241,7 +241,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QComboBox" name="local_curPathCmb"/>
+         <widget class="QComboBox" name="local_curPathCmb">
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -275,7 +279,7 @@
          <number>21</number>
         </property>
         <item>
-         <widget class="QPushButton" name="remot_backBtn">
+         <widget class="QPushButton" name="remote_backBtn">
           <property name="minimumSize">
            <size>
             <width>36</width>
@@ -297,7 +301,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="remot_refreshBtn">
+         <widget class="QPushButton" name="remote_refreshBtn">
           <property name="minimumSize">
            <size>
             <width>36</width>
@@ -319,7 +323,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="remot_newFolderBtn">
+         <widget class="QPushButton" name="remote_newFolderBtn">
           <property name="minimumSize">
            <size>
             <width>36</width>
@@ -341,7 +345,11 @@
          </widget>
         </item>
         <item>
-         <widget class="QComboBox" name="remot_curPathCmb"/>
+         <widget class="QComboBox" name="remote_curPathCmb">
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>

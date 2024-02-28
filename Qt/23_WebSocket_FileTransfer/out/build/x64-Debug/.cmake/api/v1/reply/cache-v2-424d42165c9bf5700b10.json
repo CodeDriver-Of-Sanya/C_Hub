@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug"
 		},
 		{
 			"name" : "23_WebSocket_FileTransfer_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.33128/bin/Hostx64/x64/lib.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug"
+			"value" : "c:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -123,7 +123,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -135,7 +135,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -147,7 +147,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.33128/bin/Hostx64/x64/cl.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -275,7 +275,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.33128/bin/Hostx64/x64/cl.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -803,7 +803,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/install/x64-Debug"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -883,7 +883,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.38.33128/bin/Hostx64/x64/link.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/Hostx64/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -895,7 +895,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Preview/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.27"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -2054,18 +2054,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_ctf",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: ctf (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_cursor",
 			"properties" : 
 			[
@@ -2900,6 +2888,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: futimens (from target Qt6::Core)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "QT_FEATURE_futimes",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: futimes (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -3878,54 +3878,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_FEATURE_openssl",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: openssl (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_openssl_linked",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: openssl_linked (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_opensslv11",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: opensslv11 (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_opensslv30",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: opensslv30 (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "QT_FEATURE_openvg",
 			"properties" : 
 			[
@@ -3960,18 +3912,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_permissions",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: permissions (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_picture",
@@ -4020,18 +3960,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_poll_exit_on_error",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: poll_exit_on_error (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
 		},
 		{
 			"name" : "QT_FEATURE_poll_poll",
@@ -5546,30 +5474,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "QT_FEATURE_wasm_exceptions",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: wasm_exceptions (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "QT_FEATURE_wasm_simd128",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: wasm_simd128 (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "QT_FEATURE_whatsthis",
 			"properties" : 
 			[
@@ -5624,18 +5528,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: wizard (from target Qt6::Widgets)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_x86intrin",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: x86intrin (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -5843,7 +5735,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6CoreTools"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6CoreTools"
 		},
 		{
 			"name" : "Qt6Core_DIR",
@@ -5855,7 +5747,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Core"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Core"
 		},
 		{
 			"name" : "Qt6EntryPointPrivate_DIR",
@@ -5867,7 +5759,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6EntryPointPrivate"
 		},
 		{
 			"name" : "Qt6GuiTools_DIR",
@@ -5879,7 +5771,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6GuiTools"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6GuiTools"
 		},
 		{
 			"name" : "Qt6Gui_DIR",
@@ -5891,7 +5783,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Gui"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Gui"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -5903,7 +5795,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6WidgetsTools"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6WidgetsTools"
 		},
 		{
 			"name" : "Qt6Widgets_DIR",
@@ -5915,7 +5807,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6Widgets"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6Widgets"
 		},
 		{
 			"name" : "Qt6ZlibPrivate_DIR",
@@ -5927,7 +5819,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6ZlibPrivate"
 		},
 		{
 			"name" : "Qt6_DIR",
@@ -5939,7 +5831,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/lib/cmake/Qt6"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/lib/cmake/Qt6"
 		},
 		{
 			"name" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE",
@@ -6015,7 +5907,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Qt/6.5.2/msvc2019_64/bin/windeployqt.exe"
+			"value" : "C:/Qt/6.4.2/msvc2019_64/bin/windeployqt.exe"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -6027,7 +5919,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/install/x64-Debug"
+			"value" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/install/x64-Debug"
 		}
 	],
 	"kind" : "cache",

@@ -43,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "23_WebSocket_FileTransfer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-23_WebSocket_FileTransfer-Debug-0edde85a0d7e51af820e.json",
+					"jsonFile" : "target-23_WebSocket_FileTransfer-Debug-e2bee5ec83750efb3150.json",
 					"name" : "23_WebSocket_FileTransfer",
 					"projectIndex" : 0
 				},
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug",
-		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/23_WebSocket_FileTransfer"
+		"build" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer/out/build/x64-Debug",
+		"source" : "C:/Users/HUAWEI/Documents/GitHub/C_Hub/Qt/23_WebSocket_FileTransfer"
 	},
 	"version" : 
 	{

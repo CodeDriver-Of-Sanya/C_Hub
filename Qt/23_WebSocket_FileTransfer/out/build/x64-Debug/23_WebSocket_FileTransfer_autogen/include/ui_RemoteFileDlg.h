@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'RemoteFileDlg.ui'
 **
-** Created by: Qt User Interface Compiler version 6.5.2
+** Created by: Qt User Interface Compiler version 6.4.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -49,10 +49,10 @@ public:
     QPushButton *transferBtn;
     QWidget *widget_3;
     QHBoxLayout *horizontalLayout_3;
-    QPushButton *remot_backBtn;
-    QPushButton *remot_refreshBtn;
-    QPushButton *remot_newFolderBtn;
-    QComboBox *remot_curPathCmb;
+    QPushButton *remote_backBtn;
+    QPushButton *remote_refreshBtn;
+    QPushButton *remote_newFolderBtn;
+    QComboBox *remote_curPathCmb;
     QHBoxLayout *horizontalLayout_5;
     QTableView *local_tableView;
     QTableView *remote_tableView;
@@ -171,6 +171,7 @@ public:
 
         local_curPathCmb = new QComboBox(widget_2);
         local_curPathCmb->setObjectName("local_curPathCmb");
+        local_curPathCmb->setEditable(true);
 
         horizontalLayout_2->addWidget(local_curPathCmb);
 
@@ -189,31 +190,32 @@ public:
         horizontalLayout_3 = new QHBoxLayout(widget_3);
         horizontalLayout_3->setObjectName("horizontalLayout_3");
         horizontalLayout_3->setContentsMargins(21, -1, 21, -1);
-        remot_backBtn = new QPushButton(widget_3);
-        remot_backBtn->setObjectName("remot_backBtn");
-        remot_backBtn->setMinimumSize(QSize(36, 22));
-        remot_backBtn->setMaximumSize(QSize(36, 22));
+        remote_backBtn = new QPushButton(widget_3);
+        remote_backBtn->setObjectName("remote_backBtn");
+        remote_backBtn->setMinimumSize(QSize(36, 22));
+        remote_backBtn->setMaximumSize(QSize(36, 22));
 
-        horizontalLayout_3->addWidget(remot_backBtn);
+        horizontalLayout_3->addWidget(remote_backBtn);
 
-        remot_refreshBtn = new QPushButton(widget_3);
-        remot_refreshBtn->setObjectName("remot_refreshBtn");
-        remot_refreshBtn->setMinimumSize(QSize(36, 22));
-        remot_refreshBtn->setMaximumSize(QSize(36, 22));
+        remote_refreshBtn = new QPushButton(widget_3);
+        remote_refreshBtn->setObjectName("remote_refreshBtn");
+        remote_refreshBtn->setMinimumSize(QSize(36, 22));
+        remote_refreshBtn->setMaximumSize(QSize(36, 22));
 
-        horizontalLayout_3->addWidget(remot_refreshBtn);
+        horizontalLayout_3->addWidget(remote_refreshBtn);
 
-        remot_newFolderBtn = new QPushButton(widget_3);
-        remot_newFolderBtn->setObjectName("remot_newFolderBtn");
-        remot_newFolderBtn->setMinimumSize(QSize(36, 22));
-        remot_newFolderBtn->setMaximumSize(QSize(36, 22));
+        remote_newFolderBtn = new QPushButton(widget_3);
+        remote_newFolderBtn->setObjectName("remote_newFolderBtn");
+        remote_newFolderBtn->setMinimumSize(QSize(36, 22));
+        remote_newFolderBtn->setMaximumSize(QSize(36, 22));
 
-        horizontalLayout_3->addWidget(remot_newFolderBtn);
+        horizontalLayout_3->addWidget(remote_newFolderBtn);
 
-        remot_curPathCmb = new QComboBox(widget_3);
-        remot_curPathCmb->setObjectName("remot_curPathCmb");
+        remote_curPathCmb = new QComboBox(widget_3);
+        remote_curPathCmb->setObjectName("remote_curPathCmb");
+        remote_curPathCmb->setEditable(true);
 
-        horizontalLayout_3->addWidget(remot_curPathCmb);
+        horizontalLayout_3->addWidget(remote_curPathCmb);
 
 
         horizontalLayout_4->addWidget(widget_3);
@@ -304,17 +306,17 @@ public:
         local_newFolderBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
         transferBtn->setText(QCoreApplication::translate("RemoteFileDlg", "\344\274\240\350\276\223", nullptr));
 #if QT_CONFIG(tooltip)
-        remot_backBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\350\277\224\345\233\236\344\270\212\344\270\200\345\261\202", nullptr));
+        remote_backBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\350\277\224\345\233\236\344\270\212\344\270\200\345\261\202", nullptr));
 #endif // QT_CONFIG(tooltip)
-        remot_backBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
+        remote_backBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
 #if QT_CONFIG(tooltip)
-        remot_refreshBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\345\210\267\346\226\260\345\275\223\345\211\215\346\226\207\344\273\266\345\244\271", nullptr));
+        remote_refreshBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\345\210\267\346\226\260\345\275\223\345\211\215\346\226\207\344\273\266\345\244\271", nullptr));
 #endif // QT_CONFIG(tooltip)
-        remot_refreshBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
+        remote_refreshBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
 #if QT_CONFIG(tooltip)
-        remot_newFolderBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\346\226\260\345\273\272\346\226\207\344\273\266\345\244\271", nullptr));
+        remote_newFolderBtn->setToolTip(QCoreApplication::translate("RemoteFileDlg", "\346\226\260\345\273\272\346\226\207\344\273\266\345\244\271", nullptr));
 #endif // QT_CONFIG(tooltip)
-        remot_newFolderBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
+        remote_newFolderBtn->setText(QCoreApplication::translate("RemoteFileDlg", "<", nullptr));
         allStartBtn->setText(QCoreApplication::translate("RemoteFileDlg", "\345\274\200\345\247\213\345\205\250\351\203\250", nullptr));
         allStopBtn->setText(QCoreApplication::translate("RemoteFileDlg", "\346\232\202\345\201\234\345\205\250\351\203\250", nullptr));
         allCancelBtn->setText(QCoreApplication::translate("RemoteFileDlg", "\345\217\226\346\266\210\345\205\250\351\203\250", nullptr));
