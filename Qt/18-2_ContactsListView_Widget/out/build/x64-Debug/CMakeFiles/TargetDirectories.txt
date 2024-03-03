@@ -1,0 +1,5 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/18-2_ContactsListView_Widget.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/18-2_ContactsListView_Widget_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/18-2_ContactsListView_Widget/out/build/x64-Debug/CMakeFiles/18-2_ContactsListView_Widget_autogen.dir

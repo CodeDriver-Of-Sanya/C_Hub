@@ -1,0 +1,14 @@
+# ninja log v5
+8	205	7275602352587954	C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/timestamp	c6a08a381582af01
+8	205	7275602352587954	17_Wallpaper_autogen/timestamp	c6a08a381582af01
+8	205	7275602352587954	C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/mocs_compilation.cpp	c6a08a381582af01
+8	205	7275602352587954	17_Wallpaper_autogen/mocs_compilation.cpp	c6a08a381582af01
+297	2275	7275600870990831	CMakeFiles/17_Wallpaper.dir/main.cpp.obj	93a4828565d160f9
+696	2854	7275344501885266	CMakeFiles/17_Wallpaper.dir/Util/EventFilterObject.cpp.obj	3f81bd2caddf7654
+290	675	7275344479888051	17_Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp	3e02b7b9d5a7bc01
+290	675	7275344479888051	C:/Users/zmq/coding/github_upload/C_Hub/Qt/17_Wallpaper/out/build/x64-Debug/17_Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp	3e02b7b9d5a7bc01
+283	2843	7275587262487917	CMakeFiles/17_Wallpaper.dir/17_Wallpaper_autogen/mocs_compilation.cpp.obj	b172079a51f28fa2
+210	1859	7275602369092153	CMakeFiles/17_Wallpaper.dir/SettingsDlg.cpp.obj	e925c3d40437d8cc
+297	3107	7275587265127074	CMakeFiles/17_Wallpaper.dir/MainWindow.cpp.obj	66dbca6ba296398b
+715	4253	7275344515664765	CMakeFiles/17_Wallpaper.dir/17_Wallpaper_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	8ebde69b813f3e75
+1860	2035	7275602370572246	17_Wallpaper.exe	ede530a4fd8d698f

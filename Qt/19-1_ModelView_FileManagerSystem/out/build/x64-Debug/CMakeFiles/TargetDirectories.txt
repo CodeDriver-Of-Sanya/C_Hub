@@ -1,0 +1,5 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-1_ModelView_FileManagerSystem/out/build/x64-Debug/CMakeFiles/19-1_ModelView_FileManagerSystem.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-1_ModelView_FileManagerSystem/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-1_ModelView_FileManagerSystem/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-1_ModelView_FileManagerSystem/out/build/x64-Debug/CMakeFiles/19-1_ModelView_FileManagerSystem_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-1_ModelView_FileManagerSystem/out/build/x64-Debug/CMakeFiles/19-1_ModelView_FileManagerSystem_autogen.dir

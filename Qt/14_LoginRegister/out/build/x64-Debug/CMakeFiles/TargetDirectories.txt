@@ -1,0 +1,5 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/LoginRegister.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/LoginRegister_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Debug/CMakeFiles/LoginRegister_autogen.dir

@@ -1,0 +1,10 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Server/CMakeFiles/ChatRoom-Server.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Server/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Server/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Client/CMakeFiles/ChatRoom-Client.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Client/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Client/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Client/CMakeFiles/ChatRoom-Client_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/22_tcp_ChatRoom/out/build/x64-Debug/ChatRoom-Client/CMakeFiles/ChatRoom-Client_autogen.dir

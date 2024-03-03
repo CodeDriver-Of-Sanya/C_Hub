@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "16_WindeployQt_GUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "16_WindeployQt_GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI-Debug-428265d2956097327753.json",
+					"name" : "16_WindeployQt_GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_WindeployQt_GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI_autogen-Debug-c00491f497456bbe23cf.json",
+					"name" : "16_WindeployQt_GUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_WindeployQt_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_WindeployQt_GUI_autogen_timestamp_deps-Debug-4326f6045ff35f6503db.json",
+					"name" : "16_WindeployQt_GUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/16_WindeployQt_GUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

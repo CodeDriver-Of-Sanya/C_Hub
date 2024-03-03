@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "test_QDialog",
+					"jsonFile" : "directory-test_QDialog-RelWithDebInfo-44c06a7905894de28cb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "test_QDialog",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "test_QWidget",
+					"jsonFile" : "directory-test_QWidget-RelWithDebInfo-f8294a39347bc63f8510.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "test_QWidget",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "test_other",
+					"jsonFile" : "directory-test_other-RelWithDebInfo-1624de6d5f60126b1945.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "test_other",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "06_QWidget"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "test_QDialog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "test_QWidget",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "test_other",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "test_QDialog::@27599af362a0fd568377",
+					"jsonFile" : "target-test_QDialog-RelWithDebInfo-a302be5000f801eab647.json",
+					"name" : "test_QDialog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_QDialog_autogen::@27599af362a0fd568377",
+					"jsonFile" : "target-test_QDialog_autogen-RelWithDebInfo-b159627f1a99b64eec5b.json",
+					"name" : "test_QDialog_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_QDialog_autogen_timestamp_deps::@27599af362a0fd568377",
+					"jsonFile" : "target-test_QDialog_autogen_timestamp_deps-RelWithDebInfo-044f13ddf4684571eab6.json",
+					"name" : "test_QDialog_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_QWidget::@d7e02f38405a94b3c9ba",
+					"jsonFile" : "target-test_QWidget-RelWithDebInfo-1d3b4d5801b3fff125bb.json",
+					"name" : "test_QWidget",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_QWidget_autogen::@d7e02f38405a94b3c9ba",
+					"jsonFile" : "target-test_QWidget_autogen-RelWithDebInfo-bf3ac23750c6205453ca.json",
+					"name" : "test_QWidget_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_QWidget_autogen_timestamp_deps::@d7e02f38405a94b3c9ba",
+					"jsonFile" : "target-test_QWidget_autogen_timestamp_deps-RelWithDebInfo-5c7e3e03e3a79fb5f3e1.json",
+					"name" : "test_QWidget_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_other::@83980838b0adc9e09b2b",
+					"jsonFile" : "target-test_other-RelWithDebInfo-fac3f2161e2b86df8add.json",
+					"name" : "test_other",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_other_autogen::@83980838b0adc9e09b2b",
+					"jsonFile" : "target-test_other_autogen-RelWithDebInfo-10a8af92d9ccbdb2a0fa.json",
+					"name" : "test_other_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_other_autogen_timestamp_deps::@83980838b0adc9e09b2b",
+					"jsonFile" : "target-test_other_autogen_timestamp_deps-RelWithDebInfo-be51ed4abbd76affa3a0.json",
+					"name" : "test_other_autogen_timestamp_deps",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/Qt/06_QWidget/out/build/x64-Release",
+		"source" : "C:/Users/zmq/coding/Qt/06_QWidget"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

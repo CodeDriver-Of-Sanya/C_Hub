@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34219.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的增删改查", "二叉树的增删改查.vcxproj", "{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Debug|x64.ActiveCfg = Debug|x64
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Debug|x64.Build.0 = Debug|x64
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Debug|x86.Build.0 = Debug|Win32
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Release|x64.ActiveCfg = Release|x64
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Release|x64.Build.0 = Release|x64
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Release|x86.ActiveCfg = Release|Win32
+		{CEC027C8-6597-47B1-A3D6-76A5FC950B4D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0088813F-BC34-4218-8B62-30D0AB7EC7EC}
+	EndGlobalSection
+EndGlobal

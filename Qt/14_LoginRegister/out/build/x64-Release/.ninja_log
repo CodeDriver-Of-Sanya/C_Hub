@@ -1,0 +1,13 @@
+# ninja log v5
+6	265	7272799494665676	LoginRegister_autogen/timestamp	4075299d32a22803
+266	393	7272799496076485	C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Release/LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp	718d8d58c84d3299
+6	265	7272799494665676	LoginRegister_autogen/mocs_compilation.cpp	4075299d32a22803
+6	265	7272799494665676	C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Release/LoginRegister_autogen/timestamp	4075299d32a22803
+6	265	7272799494665676	C:/Users/zmq/coding/github_upload/C_Hub/Qt/14_LoginRegister/out/build/x64-Release/LoginRegister_autogen/mocs_compilation.cpp	4075299d32a22803
+266	393	7272799496076485	LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp	718d8d58c84d3299
+393	450	7272799496856846	CMakeFiles/LoginRegister.dir/LoginRegister_autogen/mocs_compilation.cpp.obj	ea20402b9dafd08c
+418	652	7272799498895967	CMakeFiles/LoginRegister.dir/LoginRegister_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	ad29c2ebb4eca091
+412	2355	7272799515974694	CMakeFiles/LoginRegister.dir/EventFilterObject.cpp.obj	276025e0a8442a78
+400	2356	7272799515974694	CMakeFiles/LoginRegister.dir/main.cpp.obj	817290add03b0682
+407	2685	7272799519251760	CMakeFiles/LoginRegister.dir/LoginRegisterDlg.cpp.obj	2ac8a9d0420fe8a
+2685	3071	7272799523011035	LoginRegister.exe	8f4221a67f335f0d

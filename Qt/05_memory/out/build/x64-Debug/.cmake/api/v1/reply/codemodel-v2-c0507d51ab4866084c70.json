@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "05_memory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "05_memory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_memory-Debug-9078f661c843d84b3748.json",
+					"name" : "05_memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_memory_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_memory_autogen-Debug-4f2d735928abe9337e2e.json",
+					"name" : "05_memory_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05_memory_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05_memory_autogen_timestamp_deps-Debug-24fa874fcf2a6909533b.json",
+					"name" : "05_memory_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/Qt/05_memory/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/Qt/05_memory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

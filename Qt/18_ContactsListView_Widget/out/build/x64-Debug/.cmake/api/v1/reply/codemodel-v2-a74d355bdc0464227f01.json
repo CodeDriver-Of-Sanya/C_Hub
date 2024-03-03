@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "18_ContactsListView_Widget",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "18_ContactsListView_Widget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18_ContactsListView_Widget-Debug-bdcbe935f84503359fca.json",
+					"name" : "18_ContactsListView_Widget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18_ContactsListView_Widget_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18_ContactsListView_Widget_autogen-Debug-b1f5e69d6c7f9fa6d53d.json",
+					"name" : "18_ContactsListView_Widget_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "18_ContactsListView_Widget_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-18_ContactsListView_Widget_autogen_timestamp_deps-Debug-a02d4fab935834113410.json",
+					"name" : "18_ContactsListView_Widget_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18_ContactsListView_Widget/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/18_ContactsListView_Widget"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

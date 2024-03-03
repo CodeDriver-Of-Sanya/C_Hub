@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "12_MainWindow",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "12_MainWindow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_MainWindow-Debug-b4d9e31a9e9abadcc3f9.json",
+					"name" : "12_MainWindow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_MainWindow_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_MainWindow_autogen-Debug-d9d8fb0be5231ee80121.json",
+					"name" : "12_MainWindow_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "12_MainWindow_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-12_MainWindow_autogen_timestamp_deps-Debug-08cf02b551ffab1cdc6e.json",
+					"name" : "12_MainWindow_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/12_MainWindow/out/build/x64-Debug",
+		"source" : "C:/Users/zmq/coding/github_upload/C_Hub/Qt/12_MainWindow"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

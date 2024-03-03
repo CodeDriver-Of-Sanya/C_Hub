@@ -1,0 +1,15 @@
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/CMakeFiles/19-2_ModelView_BookManagerSystem.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/CMakeFiles/19-2_ModelView_BookManagerSystem_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/CMakeFiles/19-2_ModelView_BookManagerSystem_autogen.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/CMakeFiles/UiTools.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/CMakeFiles/UiTools_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/UiTools/CMakeFiles/UiTools_autogen.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/CMakeFiles/LoginRegister.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/CMakeFiles/edit_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/CMakeFiles/rebuild_cache.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/CMakeFiles/LoginRegister_autogen_timestamp_deps.dir
+C:/Users/zmq/coding/github_upload/C_Hub/Qt/19-2_ModelView_BookManagerSystem/out/build/x64-Debug/LoginRegister/CMakeFiles/LoginRegister_autogen.dir
